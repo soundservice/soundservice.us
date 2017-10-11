@@ -1,0 +1,3782 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.7">
+    <!-- End of generator meta tag -->
+    <link data-silex-static="" href="//editor.silex.me/static/2.7/normalize.css" rel="stylesheet">
+    <link data-silex-static="" href="//editor.silex.me/static/2.7/front-end.css" rel="stylesheet">
+    <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.7/jquery.js"></script>
+    <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.7/jquery-ui.js"></script>
+    <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.7/pageable.js"></script>
+    <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.7/front-end.js"></script>
+
+    <style type="text/css" class="silex-style">
+        /* text styles formatting */
+        
+        .text-element HEADER,
+        .text-element H1,
+        .text-element H2,
+        .text-element H3,
+        .text-element DIV,
+        .text-element P,
+        /* unvisited link */
+        
+        a:link {
+            color: #91a2ff;
+        }
+        /* visited link */
+        
+        a:visited {
+            color: #b69aff;
+        }
+        /* mouse over link */
+        
+        a:hover {
+            color: #56ee75;
+        }
+        /* selected link */
+        
+        a:active {
+            color: #56ee75;
+        }
+        
+        .text-box {
+            position: absolute;
+            text-align: left;
+            font-size: 16px;
+            font-family: verdana, arial;
+            color: rgb(255, 255, 255);
+            background-color: transparent;
+        }
+        
+        .text-box-c {
+            position: absolute;
+            text-align: center;
+            font-size: 18px;
+            font-family: verdana, arial;
+            color: rgb(255, 255, 255);
+            background-color: transparent;
+        }
+        
+        text-right {
+            text-align: right;
+        }
+    </style>
+    <script type="text/javascript" class="silex-script">
+        $(function() {
+          $('body').on('pageChanged', function (event, pageName) {
+            var body = $("html, body");
+            body.stop().animate({scrollTop:0}, '500', 'swing');
+          });
+        });
+    </script>
+    <style class="silex-inline-styles" type="text/css">
+        .body-initial {
+            background-color: rgba(38, 38, 38, 1);
+            background-position: top center;
+            min-height: 0px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .body-initial {
+                background-color: rgba(38, 38, 38, 1);
+                background-position: top center;
+            }
+        }
+        
+        .silex-id-1487446757118-1 {
+            top: 0px;
+            left: 0px;
+            min-width: 1024px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487446757118-1 {
+                top: 61px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1487446757117-0 {
+            min-height: 540px;
+            background-color: transparent;
+            background-image: url('../images/horizontal-background-blue.gif');
+            width: 1024px;
+            background-size: contain;
+            top: 16px;
+            left: 150px;
+            background-position: center center;
+            background-repeat: repeat-y;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487446757117-0 {
+                width: 1024px;
+                min-height: 424px;
+                background-color: transparent;
+                background-image: url('../images/horizontal-background-blue.gif');
+                background-size: contain;
+                background-repeat: repeat-y;
+                top: 16px;
+                left: 11px;
+            }
+        }
+        
+        .silex-id-1484693555371-0 {
+            width: 1024px;
+            height: auto;
+            top: 73px;
+            left: 0px;
+            min-height: 124px;
+            z-index: 3;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484693555371-0 {
+                width: 358px;
+                height: auto;
+                top: 94px;
+                left: 0px;
+                min-height: 43px;
+                z-index: 3;
+            }
+        }
+        
+        .silex-id-1484512191607-3 {
+            width: 130px;
+            top: 0px;
+            left: 0px;
+            min-height: 460px;
+            z-index: 4;
+        }
+        
+        .silex-id-1484537144098-8 {
+            width: 870px;
+            top: 0px;
+            left: 82px;
+            min-height: 20px;
+            z-index: 3;
+        }
+        
+        .silex-id-1484518023787-6 {
+            width: 84px;
+            top: 15px;
+            left: 20px;
+            min-height: 42px;
+            z-index: 5;
+            background-color: transparent;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484518023787-6 {
+                top: 2157px;
+                left: 92px;
+                width: 246px;
+                min-height: 125px;
+            }
+        }
+        
+        .silex-id-1484580579802-7 {
+            width: 84px;
+            top: 15px;
+            left: 916px;
+            min-height: 42px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484580579802-7 {
+                left: 93px;
+                top: 1585px;
+                width: 249px;
+                min-height: 139px;
+            }
+        }
+        
+        .silex-id-1484537584194-10 {
+            min-height: 120px;
+            width: 764px;
+            top: 20px;
+            left: 130px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484537584194-10 {
+                width: 358px;
+                top: 21px;
+                left: 129px;
+                min-height: 54px;
+            }
+        }
+        
+        .silex-id-1484694957894-2 {
+            width: 76px;
+            top: 84px;
+            left: 28px;
+            min-height: 79px;
+            z-index: 5;
+        }
+        
+        .silex-id-1484578547507-5 {
+            width: 75px;
+            top: 88px;
+            left: 28px;
+            min-height: 75px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484578547507-5 {
+                left: 368px;
+                top: 1592px;
+            }
+        }
+        
+        .silex-id-1484539302249-15 {
+            width: 84px;
+            top: 94px;
+            left: 470px;
+            min-height: 87px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484539302249-15 {
+                left: 375px;
+                top: 1736px;
+            }
+        }
+        
+        .silex-id-1484537094743-7 {
+            width: 130px;
+            top: 0px;
+            left: 894px;
+            min-height: 460px;
+            z-index: 4;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484537094743-7 {
+                left: 315px;
+                top: 3381px;
+            }
+        }
+        
+        .silex-id-1488406962243-7 {
+            width: 75px;
+            top: 87px;
+            left: 27px;
+            min-height: 75px;
+            z-index: 5;
+        }
+        
+        .silex-id-1487380851458-10 {
+            width: 314px;
+            top: 140px;
+            left: 129px;
+            min-height: 50px;
+            background-color: transparent;
+            z-index: 6;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487380851458-10 {
+                width: 358px;
+                background-image: url('../images/buttons/mobile-nav-bar.gif');
+                background-size: contain;
+                left: 40px;
+                top: 235px;
+                min-height: 48px;
+                background-position: center center;
+                background-repeat: repeat-x;
+            }
+        }
+        
+        .silex-id-1487380230289-8 {
+            width: 60px;
+            top: 17px;
+            left: 4px;
+            min-height: 22px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487380230289-8 {
+                width: 60px;
+                top: 17px;
+                left: 4px;
+                min-height: 22px;
+                z-index: 5;
+            }
+        }
+        
+        .silex-id-1487370509906-2 {
+            width: 145px;
+            top: 11px;
+            left: 77px;
+            min-height: 35px;
+            z-index: 4;
+        }
+        
+        .silex-id-1487370104893-0 {
+            width: 60px;
+            top: 10px;
+            left: 4px;
+            min-height: 35px;
+            z-index: 4;
+        }
+        
+        .silex-id-1487370749875-4 {
+            width: 145px;
+            top: 17px;
+            left: 77px;
+            min-height: 24px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487370749875-4 {
+                width: 145px;
+                top: 17px;
+                left: 77px;
+                min-height: 24px;
+                z-index: 5;
+            }
+        }
+        
+        .silex-id-1488407373286-10 {
+            width: 70px;
+            top: 16px;
+            left: 232px;
+            min-height: 22px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488407373286-10 {
+                width: 70px;
+                top: 16px;
+                left: 232px;
+                min-height: 22px;
+                z-index: 5;
+            }
+        }
+        
+        .silex-id-1487370256339-1 {
+            width: 70px;
+            top: 9px;
+            left: 232px;
+            min-height: 35px;
+            z-index: 4;
+        }
+        
+        .silex-id-1488404966530-0 {
+            width: 324px;
+            top: 140px;
+            left: 573px;
+            min-height: 48px;
+            background-color: transparent;
+            z-index: 6;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488404966530-0 {
+                background-image: url('../images/buttons/mobile-nav-bar.gif');
+                background-size: contain;
+                width: 358px;
+                background-position: center center;
+                background-repeat: repeat-x;
+                min-height: 51px;
+                top: 332px;
+                left: 40px;
+            }
+        }
+        
+        .silex-id-1487370834283-6 {
+            width: 83px;
+            top: 10px;
+            left: 0px;
+            min-height: 35px;
+            z-index: 4;
+        }
+        
+        .silex-id-1487370801046-5 {
+            width: 83px;
+            top: 17px;
+            left: 0px;
+            min-height: 22px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487370801046-5 {
+                width: 83px;
+                top: 17px;
+                left: 2px;
+                min-height: 22px;
+                z-index: 5;
+            }
+        }
+        
+        .silex-id-1487370872696-7 {
+            width: 66px;
+            top: 17px;
+            left: 85px;
+            min-height: 22px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487370872696-7 {
+                width: 66px;
+                top: 17px;
+                left: 83px;
+                min-height: 22px;
+                z-index: 5;
+            }
+        }
+        
+        .silex-id-1488407277187-9 {
+            width: 58px;
+            top: 10px;
+            left: 155px;
+            min-height: 35px;
+            z-index: 4;
+        }
+        
+        .silex-id-1488407259068-8 {
+            width: 66px;
+            top: 10px;
+            left: 85px;
+            min-height: 35px;
+            z-index: 4;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488407259068-8 {
+                left: 203px;
+                top: 1473px;
+            }
+        }
+        
+        .silex-id-1488407403972-11 {
+            width: 58px;
+            top: 17px;
+            left: 155px;
+            min-height: 22px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488407403972-11 {
+                width: 58px;
+                top: 17px;
+                left: 152px;
+                min-height: 22px;
+                z-index: 5;
+            }
+        }
+        
+        .silex-id-1488469573935-0 {
+            min-height: 35px;
+            width: 93px;
+            top: 10px;
+            left: 220px;
+        }
+        
+        .silex-id-1488469588874-1 {
+            min-height: 22px;
+            width: 93px;
+            top: 17px;
+            left: 220px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488469588874-1 {
+                width: 93px;
+                top: 17px;
+                left: 216px;
+                min-height: 22px;
+            }
+        }
+        
+        .silex-id-1488406625592-2 {
+            width: 80px;
+            top: 91px;
+            left: 921px;
+            min-height: 80px;
+            z-index: 5;
+        }
+        
+        .silex-id-1484696051548-8 {
+            width: 75px;
+            top: 88px;
+            left: 922px;
+            min-height: 80px;
+            z-index: 5;
+        }
+        
+        .silex-id-1488407563874-12 {
+            width: 75px;
+            top: 90px;
+            left: 924px;
+            min-height: 75px;
+            z-index: 5;
+        }
+        
+        .silex-id-1484707605980-18 {
+            width: 76px;
+            top: 91px;
+            left: 921px;
+            min-height: 76px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484707605980-18 {
+                left: 370px;
+                top: 2782px;
+            }
+        }
+        
+        .silex-id-1488482373983-2 {
+            width: 75px;
+            top: 90px;
+            left: 28px;
+            min-height: 75px;
+            z-index: 5;
+        }
+        
+        .silex-id-1488482534287-4 {
+            width: 75px;
+            top: 89px;
+            left: 921px;
+            min-height: 75px;
+            z-index: 5;
+        }
+        
+        .silex-id-1484695639336-7 {
+            width: 85px;
+            top: 82px;
+            left: 21px;
+            min-height: 85px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484695639336-7 {
+                left: 204px;
+                top: 2519px;
+            }
+        }
+        
+        .silex-id-1488406680697-3 {
+            width: 85px;
+            top: 94px;
+            left: 470px;
+            min-height: 85px;
+            z-index: 5;
+        }
+        
+        .silex-id-1484578608898-6 {
+            width: 82px;
+            top: 98px;
+            left: 472px;
+            min-height: 78px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484578608898-6 {
+                left: 494px;
+                top: 2760px;
+            }
+        }
+        
+        .silex-id-1488405759027-1 {
+            width: 92px;
+            top: 94px;
+            left: 467px;
+            min-height: 86px;
+            z-index: 5;
+        }
+        
+        .silex-id-1488482269984-1 {
+            width: 84px;
+            top: 95px;
+            left: 470px;
+            min-height: 82px;
+            z-index: 5;
+        }
+        
+        .silex-id-1484578044367-4 {
+            width: 90px;
+            top: 91px;
+            left: 467px;
+            min-height: 89px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484578044367-4 {
+                left: 272px;
+                top: 1601px;
+            }
+        }
+        
+        .silex-id-1484586643977-9 {
+            width: 72px;
+            top: 92px;
+            left: 924px;
+            min-height: 70px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484586643977-9 {
+                left: 487px;
+                top: 2457px;
+            }
+        }
+        
+        .silex-id-1488406775462-5 {
+            width: 80px;
+            top: 84px;
+            left: 22px;
+            min-height: 80px;
+            z-index: 5;
+        }
+        
+        .silex-id-1484695298049-6 {
+            width: 75px;
+            top: 87px;
+            left: 28px;
+            min-height: 75px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484695298049-6 {
+                left: 204px;
+                top: 2455px;
+            }
+        }
+        
+        .silex-id-1484667836330-4 {
+            min-height: 141px;
+            width: 251px;
+            background-color: transparent;
+            top: 209px;
+            left: 646px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484667836330-4 {
+                top: 244px;
+                left: 93px;
+                width: 250px;
+                min-height: 149px;
+            }
+        }
+        
+        .silex-id-1484667941470-6 {
+            width: 67px;
+            top: 344px;
+            left: 664px;
+            min-height: 60px;
+            font-size: 22;
+            background-color: transparent;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484667941470-6 {
+                left: 342px;
+                top: 3185px;
+            }
+        }
+        
+        .silex-id-1484667775781-3 {
+            min-height: 44px;
+            width: 205px;
+            background-color: transparent;
+            top: 361px;
+            left: 695px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484667775781-3 {
+                width: 288px;
+                top: 271px;
+                left: 486px;
+                min-height: 45px;
+                background-color: transparent;
+                font-size: 22px;
+            }
+        }
+        
+        .silex-id-1484667884821-5 {
+            min-height: 43px;
+            width: 268px;
+            background-color: transparent;
+            top: 442px;
+            left: 645px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484667884821-5 {
+                width: 316px;
+                top: 283px;
+                left: 59px;
+                min-height: 52px;
+                background-color: transparent;
+                font-size: 22px;
+            }
+        }
+        
+        .silex-id-1488413136510-4 {
+            min-height: 327px;
+            width: 440px;
+            top: 176px;
+            left: 297px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488413136510-4 {
+                width: 358px;
+                min-height: 274px;
+            }
+        }
+        
+        .silex-id-1484538769756-14 {
+            width: 75px;
+            top: 88px;
+            left: 922px;
+            min-height: 75px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484538769756-14 {
+                left: 373px;
+                top: 1586px;
+            }
+        }
+        
+        .silex-id-1484577833854-2 {
+            width: 75px;
+            top: 97px;
+            left: 475px;
+            min-height: 75px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484577833854-2 {
+                left: 530px;
+                top: 1736px;
+            }
+        }
+        
+        .silex-id-1487447587233-2 {
+            min-height: 340px;
+            width: 754px;
+            background-color: transparent;
+            top: 194px;
+            left: 136px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487447587233-2 {
+                top: 166px;
+                left: 11px;
+                width: 413px;
+                min-height: 203px;
+            }
+        }
+        
+        .silex-id-1487450672212-0 {
+            min-height: 235px;
+            width: 330px;
+            top: 51px;
+            left: 417px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1487450672212-0 {
+                width: 358px;
+                min-height: 246px;
+                top: 0px;
+                left: 46px;
+            }
+        }
+        
+        .silex-id-1485011020421-1 {
+            min-height: 235px;
+            width: 281px;
+            top: 51px;
+            left: 4px;
+        }
+        
+        .silex-id-1486515514414-0 {
+            min-height: 284px;
+            width: 114px;
+            top: 28px;
+            left: 294px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1486515514414-0 {
+                min-height: 243px;
+            }
+        }
+        
+        .silex-id-1484753881879-0 {
+            min-height: 339px;
+            width: 558px;
+            top: 197px;
+            left: 232px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484753881879-0 {
+                min-height: 229px;
+                top: 699px;
+                left: 61px;
+                width: 358px;
+            }
+        }
+        
+        .silex-id-1489629302716-1 {
+            min-height: 342px;
+            width: 708px;
+            background-color: transparent;
+            top: 193px;
+            left: 157px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489629302716-1 {
+                top: 196px;
+                left: 38px;
+                width: 358px;
+                min-height: 270px;
+            }
+        }
+        
+        .silex-id-1489629429263-2 {
+            min-height: 100px;
+            width: 612px;
+            top: -3px;
+            left: 49px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489629429263-2 {
+                left: 9px;
+                top: 0px;
+                width: 340px;
+                min-height: 64px;
+            }
+        }
+        
+        .silex-id-1484586365401-3 {
+            min-height: 60px;
+            width: 549px;
+            background-color: transparent;
+            top: 106px;
+            left: 79px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484586365401-3 {
+                width: 320px;
+                top: 5px;
+                left: 48px;
+                min-height: 88px;
+                background-color: transparent;
+            }
+        }
+        
+        .silex-id-1489630702318-4 {
+            min-height: 100px;
+            width: 612px;
+            top: 180px;
+            left: 39px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489630702318-4 {
+                width: 306px;
+                min-height: 64px;
+            }
+        }
+        
+        .silex-id-1489630596390-3 {
+            min-height: 51px;
+            width: 654px;
+            background-color: transparent;
+            top: 288px;
+            left: 27px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489630596390-3 {
+                top: 138px;
+                left: 19px;
+                width: 320px;
+                min-height: 101px;
+            }
+        }
+        
+        .silex-id-1496287820616-0 {
+            width: 714px;
+            background-color: transparent;
+            min-height: 30px;
+            top: 508px;
+            left: 156px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496287820616-0 {
+                top: 470px;
+                left: 34px;
+                width: 366px;
+                min-height: 64px;
+            }
+        }
+        
+        .silex-id-1484586416018-4 {
+            min-height: 299px;
+            width: 530px;
+            top: 212px;
+            left: 136px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484586416018-4 {
+                top: 450px;
+                left: 39px;
+                width: 358px;
+                min-height: 209px;
+            }
+        }
+        
+        .silex-id-1486767641887-0 {
+            min-height: 370px;
+            width: 551px;
+            top: 163px;
+            left: 241px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1486767641887-0 {
+                top: 1231px;
+                left: 70px;
+                width: 358px;
+                min-height: 254px;
+            }
+        }
+        
+        .silex-id-1502557557441-0 {
+            width: 570px;
+            background-color: transparent;
+            min-height: 215px;
+            top: 272px;
+            left: 246px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1502557557441-0 {
+                top: 196px;
+                left: 45px;
+                width: 330px;
+                min-height: 270px;
+            }
+        }
+        
+        .silex-id-1474394621033-3 {
+            top: 575px;
+            left: 5px;
+            background-color: rgba(38, 38, 38, 1);
+            z-index: 5;
+            min-width: 1024px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1474394621033-3 {
+                opacity: 1;
+                top: 729px;
+                left: 0px;
+                background-color: rgba(38, 38, 38, 1);
+                background-repeat: repeat-y;
+                background-size: contain;
+            }
+        }
+        
+        .silex-id-1474394621032-2 {
+            top: 15px;
+            left: 100px;
+            width: 1024px;
+            min-height: 740px;
+            background-color: transparent;
+            background-image: url('../images/horizontal-background-blue.gif');
+            background-repeat: repeat-y;
+            background-position: center center;
+            background-attachment: scroll;
+            background-size: contain;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1474394621032-2 {
+                top: 16px;
+                left: 11px;
+                width: 1024px;
+                min-height: 592px;
+                background-color: transparent;
+                background-image: url('../images/horizontal-background-blue.gif');
+                background-repeat: repeat-y;
+                background-position: top left;
+                background-attachment: scroll;
+                background-size: contain;
+            }
+        }
+        
+        .silex-id-1489629196232-0 {
+            min-height: 175px;
+            width: 705px;
+            background-color: transparent;
+            top: 42px;
+            left: 161px;
+            background-image: url('../assets/craggy-panorama.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489629196232-0 {
+                top: 60px;
+                left: 40px;
+                width: 358px;
+                min-height: 226px;
+            }
+        }
+        
+        .silex-id-1488640638946-0 {
+            min-height: 654px;
+            width: 740px;
+            background-color: transparent;
+            top: 2px;
+            left: 142px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488640638946-0 {
+                top: 0px;
+                left: 54px;
+                width: 330px;
+                min-height: 830px;
+            }
+        }
+        
+        .silex-id-1489004270874-0 {
+            min-height: 670px;
+            width: 688px;
+            background-color: transparent;
+            top: 0px;
+            left: 216px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489004270874-0 {
+                top: 0px;
+                left: 41px;
+                width: 353px;
+                min-height: 588px;
+            }
+        }
+        
+        .silex-id-1488924615531-0 {
+            min-height: 243px;
+            width: 347px;
+            background-color: transparent;
+            top: 321px;
+            left: 193px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488924615531-0 {
+                top: 227px;
+                left: 37px;
+                width: 359px;
+                min-height: 221px;
+            }
+        }
+        
+        .silex-id-1490147748847-1 {
+            width: 300px;
+            top: 317px;
+            left: 571px;
+            min-height: 300px;
+            z-index: 5;
+        }
+        
+        .silex-id-1484539880137-16 {
+            min-height: 723px;
+            width: 736px;
+            background-color: transparent;
+            top: 7px;
+            left: 143px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484539880137-16 {
+                top: 128px;
+                left: 66px;
+                width: 323px;
+                min-height: 1234px;
+            }
+        }
+        
+        .silex-id-1484586245669-2 {
+            min-height: 339px;
+            width: 657px;
+            background-color: transparent;
+            top: 22px;
+            left: 183px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484586245669-2 {
+                min-height: 502px;
+                top: 1798px;
+                left: 136px;
+                width: 312px;
+            }
+        }
+        
+        .silex-id-1496287969897-1 {
+            width: 700px;
+            background-color: transparent;
+            min-height: 126px;
+            top: 19px;
+            left: 163px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496287969897-1 {
+                top: 0px;
+                left: 11px;
+                width: 370px;
+                min-height: 216px;
+            }
+        }
+        
+        .silex-id-1488850260232-2 {
+            min-height: 275px;
+            width: 375px;
+            top: 153px;
+            left: 163px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488850260232-2 {
+                top: 258px;
+                left: 48px;
+                width: 358px;
+                min-height: 262px;
+            }
+        }
+        
+        .silex-id-1488937100324-0 {
+            min-height: 278px;
+            width: 409px;
+            top: 442px;
+            left: 143px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488937100324-0 {
+                top: 841px;
+                left: 11px;
+                width: 358px;
+                min-height: 269px;
+            }
+        }
+        
+        .silex-id-1488850171359-0 {
+            min-height: 257px;
+            width: 284px;
+            top: 160px;
+            left: 574px;
+        }
+        
+        .silex-id-1488488778391-0 {
+            min-height: 242px;
+            width: 239px;
+            top: 441px;
+            left: 590px;
+        }
+        
+        .silex-id-1498092486155-1 {
+            width: 300px;
+            min-height: 200px;
+            top: 371px;
+            left: 363px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1498092486155-1 {
+                top: 547px;
+                left: 79px;
+                width: 318px;
+                min-height: 214px;
+            }
+        }
+        
+        .silex-id-1484753914384-1 {
+            min-height: 80px;
+            width: 515px;
+            background-color: transparent;
+            top: 573px;
+            left: 260px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484753914384-1 {
+                top: 547px;
+                left: 73px;
+                width: 291px;
+                min-height: 121px;
+            }
+        }
+        
+        .silex-id-1484512516540-5 {
+            min-height: 639px;
+            width: 635px;
+            background-color: transparent;
+            top: 16px;
+            left: 188px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484512516540-5 {
+                left: 47px;
+                top: 19px;
+                min-height: 986px;
+                width: 340px;
+                opacity: 1;
+            }
+        }
+        
+        .silex-id-1484672409615-8 {
+            width: 284px;
+            top: 703px;
+            left: 573px;
+            min-height: 30px;
+            background-color: transparent;
+            font-size: 22px;
+            z-index: 3;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484672409615-8 {
+                width: 248px;
+                top: 1036px;
+                left: 94px;
+                min-height: 60px;
+                line-height: 60px;
+                background-color: transparent;
+                font-size: 22px;
+            }
+        }
+        
+        .silex-id-1490811332793-0 {
+            width: 305px;
+            top: 705px;
+            left: 156px;
+            min-height: 29px;
+            font-size: 22px;
+            background-color: transparent;
+            z-index: 4;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1490811332793-0 {
+                top: 1091px;
+                left: 65px;
+                width: 305px;
+                min-height: 36px;
+            }
+        }
+        
+        .silex-id-1484798417246-11 {
+            top: 1269px;
+            left: 0px;
+            min-width: 1024px;
+            background-color: rgba(38, 38, 38, 1);
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484798417246-11 {
+                top: 1312px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1484798417246-10 {
+            top: 0px;
+            left: 160px;
+            width: 1024px;
+            min-height: 727px;
+            background-color: transparent;
+            background-image: url('../images/horizontal-background-blue.gif');
+            background-repeat: repeat-y;
+            background-position: center center;
+            background-size: contain;
+            background-attachment: scroll;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484798417246-10 {
+                top: 0px;
+                left: 50px;
+                width: 1000px;
+                min-height: 687px;
+                background-color: transparent;
+                background-image: url('../images/horizontal-background-blue.gif');
+                background-repeat: repeat-y;
+                background-position: center center;
+                background-size: contain;
+            }
+        }
+        
+        .silex-id-1484945906835-3 {
+            min-height: 196px;
+            width: 509px;
+            background-color: transparent;
+            top: 6px;
+            left: 143px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484945906835-3 {
+                top: 312px;
+                left: 67px;
+                width: 320px;
+                min-height: 308px;
+            }
+        }
+        
+        .silex-id-1484945942592-4 {
+            min-height: 164px;
+            width: 529px;
+            background-color: transparent;
+            top: 211px;
+            left: 143px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484945942592-4 {
+                background-color: transparent;
+                top: 0px;
+                left: 69px;
+                width: 320px;
+                min-height: 312px;
+            }
+        }
+        
+        .silex-id-1484945960527-5 {
+            min-height: 228px;
+            width: 559px;
+            background-color: transparent;
+            top: 435px;
+            left: 140px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484945960527-5 {
+                top: 620px;
+                left: 66px;
+                width: 320px;
+                min-height: 308px;
+            }
+        }
+        
+        .silex-id-1484947035932-6 {
+            min-height: 169px;
+            width: 235px;
+            top: 19px;
+            left: 640px;
+        }
+        
+        .silex-id-1484947102896-7 {
+            min-height: 182px;
+            width: 230px;
+            top: 232px;
+            left: 641px;
+        }
+        
+        .silex-id-1484947138474-8 {
+            min-height: 210px;
+            width: 269px;
+            top: 499px;
+            left: 600px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484947138474-8 {
+                left: 144px;
+                top: 4324px;
+                width: 358px;
+                min-height: 261px;
+            }
+        }
+        
+        .silex-id-1474394605264-1 {
+            top: 1887px;
+            left: 0px;
+            background-color: rgba(38, 38, 38, 1);
+            min-width: 1024px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1474394605264-1 {
+                top: 1424px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1474394605263-0 {
+            top: 0px;
+            left: 0px;
+            width: 1024px;
+            min-height: 130px;
+            background-color: transparent;
+            background-image: url('../images/bottom-bar-bkgrnd.gif');
+            background-repeat: repeat-x;
+            background-position: bottom center;
+            background-size: auto;
+            background-attachment: scroll;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1474394605263-0 {
+                top: 0px;
+                left: 12px;
+                width: 480px;
+                min-height: 110px;
+                background-size: auto;
+                background-position: bottom center;
+            }
+        }
+        
+        .silex-id-1484537402560-9 {
+            width: 130px;
+            top: 0px;
+            left: 894px;
+            min-height: 130px;
+            z-index: 2;
+        }
+        
+        .silex-id-1485455903627-0 {
+            width: 950px;
+            height: auto;
+            top: 0px;
+            left: 37px;
+            min-height: 96px;
+            background-color: rgba(38, 38, 38, 1);
+            z-index: 1;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1485455903627-0 {
+                width: 541px;
+                height: auto;
+                top: 0px;
+                left: 37px;
+                min-height: 45px;
+                background-color: rgba(38, 38, 38, 1);
+                z-index: 1;
+                background-image: url('../images/horizontal-background-blue.gif');
+            }
+        }
+        
+        .silex-id-1484837978377-0 {
+            width: 60px;
+            top: 48px;
+            left: 21px;
+            min-height: 64px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484837978377-0 {
+                min-height: 60px;
+                width: 56px;
+            }
+        }
+        
+        .silex-id-1484838104051-2 {
+            width: 60px;
+            top: 49px;
+            left: 20px;
+            min-height: 60px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484838104051-2 {
+                left: 381px;
+                top: 1469px;
+                width: 55px;
+                min-height: 53px;
+            }
+        }
+        
+        .silex-id-1488411302812-0 {
+            width: 65px;
+            top: 47px;
+            left: 19px;
+            min-height: 65px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488411302812-0 {
+                left: 388px;
+                top: 1728px;
+                width: 58px;
+                min-height: 58px;
+            }
+        }
+        
+        .silex-id-1488482440186-3 {
+            width: 60px;
+            top: 49px;
+            left: 21px;
+            min-height: 60px;
+            z-index: 5;
+        }
+        
+        .silex-id-1488411944594-2 {
+            width: 65px;
+            top: 47px;
+            left: 19px;
+            min-height: 65px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488411944594-2 {
+                width: 60px;
+                min-height: 60px;
+            }
+        }
+        
+        .silex-id-1496285458556-4 {
+            width: 65px;
+            top: 46px;
+            left: 18px;
+            min-height: 65px;
+            z-index: 5;
+        }
+        
+        .silex-id-1496284168296-1 {
+            width: 130px;
+            top: 0px;
+            left: 0px;
+            min-height: 130px;
+            z-index: 2;
+        }
+        
+        .silex-id-1496285215419-3 {
+            width: 55px;
+            top: 52px;
+            left: 25px;
+            min-height: 55px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496285215419-3 {
+                left: 204px;
+                top: 2455px;
+            }
+        }
+        
+        .silex-id-1496284575695-2 {
+            width: 68px;
+            top: 17px;
+            left: 477px;
+            font-size: 10px;
+            line-height: 6;
+            background-color: transparent;
+            min-height: 68px;
+            z-index: 5;
+            background-image: url('../assets/mobile-icon.png');
+            background-position: center center;
+            background-size: contain;
+        }
+        
+        .silex-id-1484835602991-2 {
+            width: 60px;
+            top: 47px;
+            left: 942px;
+            min-height: 65px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484835602991-2 {
+                left: 482px;
+                top: 1469px;
+                width: 50px;
+                min-height: 53px;
+            }
+        }
+        
+        .silex-id-1488482548134-5 {
+            width: 60px;
+            top: 50px;
+            left: 943px;
+            min-height: 60px;
+            z-index: 5;
+        }
+        
+        .silex-id-1488411992707-3 {
+            width: 70px;
+            top: 44px;
+            left: 935px;
+            min-height: 70px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488411992707-3 {
+                width: 60px;
+                min-height: 60px;
+            }
+        }
+        
+        .silex-id-1484835515053-1 {
+            width: 63px;
+            top: 50px;
+            left: 942px;
+            min-height: 61px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484835515053-1 {
+                left: 493px;
+                top: 1349px;
+                width: 50px;
+                min-height: 50px;
+            }
+        }
+        
+        .silex-id-1488406900125-6 {
+            width: 65px;
+            top: 48px;
+            left: 939px;
+            min-height: 65px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1488406900125-6 {
+                left: 536px;
+                top: 531px;
+                width: 55px;
+                min-height: 55px;
+            }
+        }
+        
+        .silex-id-1490744783851-1 {
+            width: 60px;
+            top: 48px;
+            left: 942px;
+            min-height: 60px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1490744783851-1 {
+                left: 373px;
+                top: 1586px;
+            }
+        }
+        
+        .silex-id-1484835447337-0 {
+            width: 60px;
+            top: 50px;
+            left: 943px;
+            min-height: 60px;
+            z-index: 5;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1484835447337-0 {
+                width: 56px;
+                min-height: 56px;
+            }
+        }
+    </style>
+    <title>Sound Service Audio System Engineer in Asheville North Carolina</title>
+    <script type="text/javascript" class="silex-json-styles">
+        [{"desktop":{"body-initial":{"background-color":"rgba(38,38,38,1)","background-position":"top center","min-height":"0px"},"silex-id-1474394621033-3":{"top":"575px","left":"5px","background-color":"rgba(38,38,38,1)","z-index":"5","min-width":"1024px"},"silex-id-1474394621032-2":{"top":"15px","left":"100px","width":"1024px","min-height":"740px","background-color":"transparent","background-image":"url('../images/horizontal-background-blue.gif')","background-repeat":"repeat-y","background-position":"center center","background-attachment":"scroll","background-size":"contain"},"silex-id-1474394605264-1":{"top":"1887px","left":"0px","background-image":"","background-color":"rgba(38,38,38,1)","min-width":"1024px"},"silex-id-1474394605263-0":{"top":"0px","left":"0px","width":"1024px","min-height":"130px","background-color":"transparent","background-image":"url('../images/bottom-bar-bkgrnd.gif')","background-repeat":"repeat-x","background-position":"bottom center","background-size":"auto","background-attachment":"scroll"},"silex-id-1442914737143-3":{"min-height":"36px","width":"200px","top":"97px","left":"400px","background-color":"transparent"},"silex-id-1484511496476-0":{"min-height":"474px","width":"123px","top":"280px","left":"18px","background-image":"url('../images/KD5side.jpg')","background-repeat":"repeat-y"},"silex-id-1484511889946-1":{"min-height":"240px","width":"130px","top":"0px","left":"0px"},"silex-id-1484511954427-2":{"min-height":"130px","width":"130px","top":"512px","left":"-1px"},"silex-id-1484512191607-3":{"width":"130px","top":"0px","left":"0px","min-height":"460px","z-index":"4"},"silex-id-1484512474742-4":{"width":"130px","top":"0px","left":"0px","min-height":"130px","z-index":"2"},"silex-id-1484512516540-5":{"min-height":"639px","width":"635px","background-color":"transparent","top":"16px","left":"188px"},"silex-id-1484518023787-6":{"width":"84px","top":"15px","left":"20px","min-height":"42px","z-index":"5","background-color":"transparent"},"silex-id-1484537094743-7":{"width":"130px","top":"0px","left":"894px","min-height":"460px","z-index":"4"},"silex-id-1484537144098-8":{"width":"870px","top":"0px","left":"82px","min-height":"20px","z-index":"3"},"silex-id-1484537402560-9":{"width":"130px","top":"0px","left":"894px","min-height":"130px","z-index":"2"},"silex-id-1484537584194-10":{"min-height":"120px","width":"764px","top":"20px","left":"130px"},"silex-id-1484538482727-11":{"min-height":"84px","width":"88px","top":"239px","left":"473px"},"silex-id-1484538609243-12":{"min-height":"222px","width":"230px","top":"100px","left":"473.3333282470703px"},"silex-id-1484538626211-13":{"min-height":"222px","width":"230px","top":"100px","left":"473.3333282470703px"},"silex-id-1484538769756-14":{"width":"75px","top":"88px","left":"922px","min-height":"75px","z-index":"5"},"silex-id-1484539302249-15":{"width":"84px","top":"94px","left":"470px","min-height":"87px","z-index":"5"},"silex-id-1484539880137-16":{"min-height":"723px","width":"736px","background-color":"transparent","top":"7px","left":"143px"},"silex-id-1484577609863-0":{"min-height":"50px","width":"50px","top":"52px","left":"925px"},"silex-id-1484577833854-2":{"width":"75px","top":"97px","left":"475px","min-height":"75px","z-index":"5"},"silex-id-1484577939737-3":{"width":"75px","top":"86px","left":"898px","min-height":"75px","z-index":"5","background-color":"transparent"},"silex-id-1484578044367-4":{"width":"90px","top":"91px","left":"467px","min-height":"89px","z-index":"5"},"silex-id-1484578547507-5":{"width":"75px","top":"88px","left":"28px","min-height":"75px","z-index":"5"},"silex-id-1484578608898-6":{"width":"82px","top":"98px","left":"472px","min-height":"78px","z-index":"5"},"silex-id-1484580579802-7":{"width":"84px","top":"15px","left":"916px","min-height":"42px","z-index":"5"},"silex-id-1484586228549-0":{"min-height":"100px","background-color":"rgb(255, 255, 255)"},"silex-id-1484586228549-1":{"min-height":"100px","top":"100px","left":"NaNpx"},"silex-id-1484586245669-2":{"min-height":"339px","width":"657px","background-color":"transparent","top":"22px","left":"183px"},"silex-id-1484586365401-3":{"min-height":"60px","width":"549px","background-color":"transparent","top":"106px","left":"79px"},"silex-id-1484586416018-4":{"min-height":"299px","width":"530px","top":"212px","left":"136px"},"silex-id-1484586435089-5":{"min-height":"128px","width":"128px","top":"100px","left":"461.375px"},"silex-id-1484586446251-6":{"min-height":"128px","width":"128px","top":"100px","left":"461.375px"},"silex-id-1484586471315-7":{"min-height":"128px","width":"128px","top":"100px","left":"461.375px"},"silex-id-1484586509902-8":{"min-height":"1004px","width":"945px","top":"100px","left":"461.375px"},"silex-id-1484586643977-9":{"width":"72px","top":"92px","left":"924px","min-height":"70px","z-index":"5"},"silex-id-1484586826281-10":{"min-height":"196px","width":"515px","background-color":"transparent","top":"11px","left":"9px"},"silex-id-1484587005355-11":{"min-height":"219px","width":"320px","background-color":"transparent","top":"198px","left":"14px"},"silex-id-1484587034490-12":{"min-height":"259px","width":"563px","background-color":"transparent","top":"424px","left":"16px"},"silex-id-1484664453209-1":{"min-height":"215px","width":"543px","background-color":"rgb(255, 255, 255)","top":"960px","left":"461px","background-image":"url('../assets/contact-button.jpg')","background-repeat":"no-repeat","background-size":"cover","background-position":"center center"},"silex-id-1484666806418-2":{"min-height":"42px","width":"195px","background-color":"transparent","top":"330px","left":"625px","background-image":"","background-repeat":"no-repeat","background-size":"contain"},"silex-id-1484667775781-3":{"min-height":"44px","width":"205px","background-color":"transparent","top":"361px","left":"695px"},"silex-id-1484667836330-4":{"min-height":"141px","width":"251px","background-color":"transparent","top":"209px","left":"646px"},"silex-id-1484667884821-5":{"min-height":"43px","width":"268px","background-color":"transparent","top":"442px","left":"645px"},"silex-id-1484667941470-6":{"width":"67px","top":"344px","left":"664px","min-height":"60px","font-size":"22","background-color":"transparent"},"silex-id-1484672339385-7":{"min-height":"100px","width":"100px","background-color":"transparent","top":"1457px","left":"600px"},"silex-id-1484672409615-8":{"width":"284px","top":"703px","left":"573px","min-height":"30px","background-color":"transparent","font-size":"22px","z-index":"3"},"silex-id-1484693555371-0":{"width":"1024px","height":"auto","top":"73px","left":"0px","min-height":"124px","z-index":"3"},"silex-id-1484694873049-1":{"min-height":"222px","width":"230px","top":"100px","left":"307px"},"silex-id-1484694957894-2":{"width":"76px","top":"84px","left":"28px","min-height":"79px","z-index":"5"},"silex-id-1484695113581-3":{"min-height":"68px","width":"68px","top":"582px","left":"429px"},"silex-id-1484695253524-4":{"min-height":"272px","width":"442px","top":"100px","left":"319px"},"silex-id-1484695281809-5":{"min-height":"272px","width":"442px","top":"100px","left":"319px"},"silex-id-1484695298049-6":{"width":"75px","top":"87px","left":"28px","min-height":"75px","z-index":"5"},"silex-id-1484695639336-7":{"width":"85px","top":"82px","left":"21px","min-height":"85px","z-index":"5"},"silex-id-1484696051548-8":{"width":"75px","top":"88px","left":"922px","min-height":"80px","z-index":"5"},"silex-id-1484704111504-9":{"width":"800px","top":"-9px","left":"98px","min-height":"93px","z-index":"1"},"silex-id-1484704651348-10":{"min-height":"93px","width":"800px","top":"1372px","left":"130px"},"silex-id-1484704831651-12":{"width":"70px","top":"12px","left":"465px","min-height":"70px","background-color":"transparent","background-image":"url('../assets/mobile-icon.png')","background-size":"contain","background-repeat":"no-repeat","z-index":"5"},"silex-id-1484706870744-13":{"min-height":"1680px","width":"1680px","top":"-106px","left":"-19px"},"silex-id-1484706898047-14":{"min-height":"1680px","width":"1680px","top":"100px","left":"86.50692749023438px"},"silex-id-1484706990812-15":{"min-height":"1680px","width":"1680px","top":"-49px","left":"-109px"},"silex-id-1484707280391-16":{"min-height":"1680px","width":"1680px","top":"-35px","left":"53px"},"silex-id-1484707432399-17":{"width":"70px","top":"11px","left":"464px","min-height":"70px","z-index":"5"},"silex-id-1484707605980-18":{"width":"76px","top":"91px","left":"921px","min-height":"76px","z-index":"5"},"silex-id-1484714079665-1":{"min-height":"65px","width":"65px","top":"938.75px","left":"461.375px"},"silex-id-1484714110437-2":{"width":"67px","top":"19px","left":"477px","min-height":"65px","font-size":"10px","line-height":"60px","background-color":"transparent","background-image":"url('../assets/mobile-icon.png')","background-size":"contain","background-repeat":"no-repeat","background-position":"top center","z-index":"5"},"silex-id-1484749852877-0":{"min-height":"100px","width":"100px","background-color":"rgb(255, 255, 255)","top":"1452px","left":"681px"},"silex-id-1484750809126-0":{"width":"200px","top":"962px","left":"396px","min-height":"115px","background-color":"transparent","z-index":"5","background-image":"url('../assets/sound-service-us2015.gif')","background-repeat":"no-repeat","background-size":"contain"},"silex-id-1484753881879-0":{"min-height":"339px","width":"558px","top":"197px","left":"232px"},"silex-id-1484753914384-1":{"min-height":"80px","width":"515px","background-color":"transparent","top":"573px","left":"260px"},"silex-id-1484753989925-2":{"min-height":"199px","width":"280px","top":"15px","left":"424px"},"silex-id-1484754038487-3":{"min-height":"170px","width":"218px","top":"257px","left":"467px"},"silex-id-1484754130073-4":{"min-height":"175px","width":"259px","top":"479px","left":"443px"},"silex-id-1484754275865-5":{"min-height":"204px","width":"210px","top":"969px","left":"189px"},"silex-id-1484796367004-0":{"min-height":"131px","width":"720px","background-color":"transparent","top":"895px","left":"142px"},"silex-id-1484798417246-10":{"top":"0px","left":"160px","width":"1024px","min-height":"727px","background-color":"transparent","background-image":"url('../images/horizontal-background-blue.gif')","background-repeat":"repeat-y","background-position":"center center","background-size":"contain","background-attachment":"scroll"},"silex-id-1484798417246-11":{"top":"1269px","left":"0px","min-width":"1024px","background-color":"rgba(38,38,38,1)"},"silex-id-1484798457819-12":{"min-height":"698px","width":"720px","background-color":"transparent","top":"14px","left":"140px"},"silex-id-1484835447337-0":{"width":"60px","top":"50px","left":"943px","min-height":"60px","z-index":"5"},"silex-id-1484835515053-1":{"width":"63px","top":"50px","left":"942px","min-height":"61px","z-index":"5"},"silex-id-1484835602991-2":{"width":"60px","top":"47px","left":"942px","min-height":"65px","z-index":"5"},"silex-id-1484837978377-0":{"width":"60px","top":"48px","left":"21px","min-height":"64px","z-index":"5"},"silex-id-1484838028656-1":{"width":"60px","top":"49px","left":"21px","min-height":"60px","z-index":"5"},"silex-id-1484838104051-2":{"width":"60px","top":"49px","left":"20px","min-height":"60px","z-index":"5"},"silex-id-1484945906835-3":{"min-height":"196px","width":"509px","background-color":"transparent","top":"6px","left":"143px"},"silex-id-1484945942592-4":{"min-height":"164px","width":"529px","background-color":"transparent","top":"211px","left":"143px"},"silex-id-1484945960527-5":{"min-height":"228px","width":"559px","background-color":"transparent","top":"435px","left":"140px"},"silex-id-1484947035932-6":{"min-height":"169px","width":"235px","top":"19px","left":"640px"},"silex-id-1484947102896-7":{"min-height":"182px","width":"230px","top":"232px","left":"641px"},"silex-id-1484947138474-8":{"min-height":"210px","width":"269px","top":"499px","left":"600px"},"silex-id-1485011020421-1":{"min-height":"235px","width":"281px","top":"51px","left":"4px"},"silex-id-1485455903627-0":{"width":"950px","height":"auto","top":"0px","left":"37px","min-height":"96px","background-color":"rgba(38,38,38,1)","z-index":"1"},"silex-id-1486515514414-0":{"min-height":"284px","width":"114px","top":"28px","left":"294px"},"silex-id-1486767641887-0":{"min-height":"370px","width":"551px","top":"163px","left":"241px"},"silex-id-1486767764404-1":{"min-height":"200px","width":"200px","top":"27px","left":"22px"},"silex-id-1487370104893-0":{"width":"60px","top":"10px","left":"4px","min-height":"35px","z-index":"4"},"silex-id-1487370256339-1":{"width":"70px","top":"9px","left":"232px","min-height":"35px","z-index":"4"},"silex-id-1487370509906-2":{"width":"145px","top":"11px","left":"77px","min-height":"35px","z-index":"4"},"silex-id-1487370749875-4":{"width":"145px","top":"17px","left":"77px","min-height":"24px","z-index":"5"},"silex-id-1487370801046-5":{"width":"83px","top":"17px","left":"0px","min-height":"22px","z-index":"5"},"silex-id-1487370834283-6":{"width":"83px","top":"10px","left":"0px","min-height":"35px","z-index":"4"},"silex-id-1487370872696-7":{"width":"66px","top":"17px","left":"85px","min-height":"22px","z-index":"5"},"silex-id-1487380230289-8":{"width":"60px","top":"17px","left":"4px","min-height":"22px","z-index":"5"},"silex-id-1487380851458-10":{"width":"314px","top":"140px","left":"129px","min-height":"50px","background-color":"transparent","z-index":"6"},"silex-id-1487446757117-0":{"min-height":"540px","background-color":"transparent","background-image":"url('../images/horizontal-background-blue.gif')","width":"1024px","background-size":"contain","top":"16px","left":"150px","background-position":"center center","background-repeat":"repeat-y"},"silex-id-1487446757118-1":{"top":"0px","left":"0px","min-width":"1024px"},"silex-id-1487447587233-2":{"min-height":"340px","width":"754px","background-color":"transparent","top":"194px","left":"136px"},"silex-id-1487450672212-0":{"min-height":"235px","width":"330px","top":"51px","left":"417px"},"silex-id-1488404966530-0":{"width":"324px","top":"140px","left":"573px","min-height":"48px","background-color":"transparent","z-index":"6"},"silex-id-1488405759027-1":{"width":"92px","top":"94px","left":"467px","min-height":"86px","z-index":"5"},"silex-id-1488406625592-2":{"width":"80px","top":"91px","left":"921px","min-height":"80px","z-index":"5"},"silex-id-1488406680697-3":{"width":"85px","top":"94px","left":"470px","min-height":"85px","z-index":"5"},"silex-id-1488406775462-5":{"width":"80px","top":"84px","left":"22px","min-height":"80px","z-index":"5"},"silex-id-1488406900125-6":{"width":"65px","top":"48px","left":"939px","min-height":"65px","z-index":"5"},"silex-id-1488406962243-7":{"width":"75px","top":"87px","left":"27px","min-height":"75px","z-index":"5"},"silex-id-1488407259068-8":{"width":"66px","top":"10px","left":"85px","min-height":"35px","z-index":"4"},"silex-id-1488407277187-9":{"width":"58px","top":"10px","left":"155px","min-height":"35px","z-index":"4"},"silex-id-1488407373286-10":{"width":"70px","top":"16px","left":"232px","min-height":"22px","z-index":"5"},"silex-id-1488407403972-11":{"width":"58px","top":"17px","left":"155px","min-height":"22px","z-index":"5"},"silex-id-1488407563874-12":{"width":"75px","top":"90px","left":"924px","min-height":"75px","z-index":"5"},"silex-id-1488411302812-0":{"width":"65px","top":"47px","left":"19px","min-height":"65px","z-index":"5"},"silex-id-1488411944594-2":{"width":"65px","top":"47px","left":"19px","min-height":"65px","z-index":"5"},"silex-id-1488411992707-3":{"width":"70px","top":"44px","left":"935px","min-height":"70px","z-index":"5"},"silex-id-1488413136510-4":{"min-height":"327px","width":"440px","top":"176px","left":"297px"},"silex-id-1488469573935-0":{"min-height":"35px","width":"93px","top":"10px","left":"220px"},"silex-id-1488469588874-1":{"min-height":"22px","width":"93px","top":"17px","left":"220px"},"silex-id-1488482269984-1":{"width":"84px","top":"95px","left":"470px","min-height":"82px","z-index":"5"},"silex-id-1488482373983-2":{"width":"75px","top":"90px","left":"28px","min-height":"75px","z-index":"5"},"silex-id-1488482440186-3":{"width":"60px","top":"49px","left":"21px","min-height":"60px","z-index":"5"},"silex-id-1488482534287-4":{"width":"75px","top":"89px","left":"921px","min-height":"75px","z-index":"5"},"silex-id-1488482548134-5":{"width":"60px","top":"50px","left":"943px","min-height":"60px","z-index":"5"},"silex-id-1488488778391-0":{"min-height":"242px","width":"239px","top":"441px","left":"590px"},"silex-id-1488640638946-0":{"min-height":"654px","width":"740px","background-color":"transparent","top":"2px","left":"142px"},"silex-id-1488850171359-0":{"min-height":"257px","width":"284px","top":"160px","left":"574px"},"silex-id-1488850260232-2":{"min-height":"275px","width":"375px","top":"153px","left":"163px"},"silex-id-1488924615531-0":{"min-height":"243px","width":"347px","background-color":"transparent","top":"321px","left":"193px"},"silex-id-1488937100324-0":{"min-height":"278px","width":"409px","top":"442px","left":"143px"},"silex-id-1489004270874-0":{"min-height":"670px","width":"688px","background-color":"transparent","top":"0px","left":"216px"},"silex-id-1489604020116-0":{"width":"64px","top":"46px","left":"19px","min-height":"66px","z-index":"5"},"silex-id-1489629196232-0":{"min-height":"175px","width":"705px","background-color":"transparent","top":"42px","left":"161px","background-image":"url('../assets/craggy-panorama.jpg')","background-size":"cover","background-repeat":"no-repeat","background-position":"top center"},"silex-id-1489629302716-1":{"min-height":"342px","width":"708px","background-color":"transparent","top":"193px","left":"157px"},"silex-id-1489629429263-2":{"min-height":"100px","width":"612px","top":"-3px","left":"49px"},"silex-id-1489630596390-3":{"min-height":"51px","width":"654px","background-color":"transparent","top":"288px","left":"27px"},"silex-id-1489630702318-4":{"min-height":"100px","width":"612px","top":"180px","left":"39px"},"silex-id-1490147748847-1":{"width":"300px","top":"317px","left":"571px","min-height":"300px","z-index":"5"},"silex-id-1490744783851-1":{"width":"60px","top":"48px","left":"942px","min-height":"60px","z-index":"5"},"silex-id-1490811332793-0":{"width":"305px","top":"705px","left":"156px","min-height":"29px","font-size":"22px","background-color":"transparent","z-index":"4"},"silex-id-1496284168296-1":{"width":"130px","top":"0px","left":"0px","min-height":"130px","z-index":"2"},"silex-id-1496284575695-2":{"width":"68px","top":"17px","left":"477px","font-size":"10px","line-height":"6","background-color":"transparent","min-height":"68px","z-index":"5","background-image":"url('../assets/mobile-icon.png')","background-position":"center center","background-size":"contain"},"silex-id-1496285215419-3":{"width":"55px","top":"52px","left":"25px","min-height":"55px","z-index":"5"},"silex-id-1496285458556-4":{"width":"65px","top":"46px","left":"18px","min-height":"65px","z-index":"5"},"silex-id-1496287820616-0":{"width":"714px","background-color":"transparent","min-height":"30px","top":"508px","left":"156px"},"silex-id-1496287969897-1":{"width":"700px","background-color":"transparent","min-height":"126px","top":"19px","left":"163px"},"silex-id-1498092486155-1":{"width":"300px","min-height":"200px","top":"371px","left":"363px"},"silex-id-1502557557441-0":{"width":"570px","background-color":"transparent","min-height":"215px","top":"272px","left":"246px"}},"mobile":{"silex-id-1484512474742-4":{"left":"320px","top":"1260px"},"silex-id-1484512516540-5":{"left":"47px","top":"19px","min-height":"986px","width":"340px","opacity":"1"},"silex-id-1474394621032-2":{"top":"16px","left":"11px","width":"1024px","min-height":"592px","background-color":"transparent","background-image":"url('../images/horizontal-background-blue.gif')","background-repeat":"repeat-y","background-position":"top left","background-attachment":"scroll","background-size":"contain"},"silex-id-1474394621033-3":{"opacity":"1","top":"729px","left":"0px","background-color":"rgba(38,38,38,1)","background-image":"","background-repeat":"repeat-y","background-size":"contain"},"silex-id-1474394605263-0":{"top":"0px","left":"12px","width":"480px","min-height":"110px","background-size":"auto","background-position":"bottom center"},"silex-id-1474394605264-1":{"top":"1424px","left":"0px"},"silex-id-1442914737143-3":{"top":"23px","left":"11px","width":"411px","min-height":"26px"},"silex-id-1484537094743-7":{"left":"315px","top":"3381px"},"silex-id-1484537584194-10":{"width":"358px","top":"21px","left":"129px","min-height":"54px"},"body-initial":{"background-color":"rgba(38,38,38,1)","background-position":"top center"},"silex-id-1484518023787-6":{"top":"2157px","left":"92px","width":"246px","min-height":"125px"},"silex-id-1484539880137-16":{"top":"128px","left":"66px","width":"323px","min-height":"1234px"},"silex-id-1484587034490-12":{"left":"10px","top":"1114px","width":"393px","min-height":"278px"},"silex-id-1484586826281-10":{"left":"10px","top":"1114px","width":"393px","min-height":"235px"},"silex-id-1484577939737-3":{"left":"370px","top":"1878px"},"silex-id-1484587005355-11":{"top":"1258px","left":"10px","width":"393px","min-height":"280px"},"silex-id-1484693555371-0":{"width":"358px","height":"auto","top":"94px","left":"0px","min-height":"43px","z-index":"3"},"silex-id-1484667884821-5":{"width":"316px","top":"283px","left":"59px","min-height":"52px","background-color":"transparent","font-size":"22px"},"silex-id-1484667775781-3":{"width":"288px","top":"271px","left":"486px","min-height":"45px","background-color":"transparent","font-size":"22px"},"silex-id-1484667941470-6":{"left":"342px","top":"3185px"},"silex-id-1484672339385-7":{"left":"212px","top":"2455px"},"silex-id-1484586416018-4":{"top":"450px","left":"39px","width":"358px","min-height":"209px"},"silex-id-1484586245669-2":{"min-height":"502px","top":"1798px","left":"136px","width":"312px"},"silex-id-1484578044367-4":{"left":"272px","top":"1601px"},"silex-id-1484578547507-5":{"left":"368px","top":"1592px"},"silex-id-1484586643977-9":{"left":"487px","top":"2457px"},"silex-id-1484672409615-8":{"width":"248px","top":"1036px","left":"94px","min-height":"60px","line-height":"60px","background-color":"transparent","font-size":"22px"},"silex-id-1484666806418-2":{"width":"195px","top":"2715px","left":"248px","min-height":"42px","background-color":"transparent","font-size":"22px","background-repeat":"no-repeat","background-size":"contain"},"silex-id-1484578608898-6":{"left":"494px","top":"2760px"},"silex-id-1484695298049-6":{"left":"204px","top":"2455px"},"silex-id-1484538769756-14":{"left":"373px","top":"1586px"},"silex-id-1484695639336-7":{"left":"204px","top":"2519px"},"silex-id-1484707605980-18":{"left":"370px","top":"2782px"},"silex-id-1484539302249-15":{"left":"375px","top":"1736px"},"silex-id-1484577833854-2":{"left":"530px","top":"1736px"},"silex-id-1484750809126-0":{"background-color":"transparent","background-image":"url('../assets/sound-service-us2015.gif')","background-repeat":"no-repeat","background-size":"contain","top":"1064px","left":"100px","width":"233px","min-height":"117px","background-position":"top center"},"silex-id-1484753881879-0":{"min-height":"229px","top":"699px","left":"61px","width":"358px"},"silex-id-1484754038487-3":{"min-height":"189px","width":"250px","top":"249px"},"silex-id-1484754275865-5":{"width":"270px","top":"1064px","left":"225px","min-height":"270px","font-size":"10px"},"silex-id-1484798417246-10":{"top":"0px","left":"50px","width":"1000px","min-height":"687px","background-color":"transparent","background-image":"url('../images/horizontal-background-blue.gif')","background-repeat":"repeat-y","background-position":"center center","background-size":"contain"},"silex-id-1484798417246-11":{"top":"1312px","left":"0px"},"silex-id-1484796367004-0":{"top":"1214px","left":"16px","width":"404px","min-height":"112px"},"silex-id-1484753989925-2":{"left":"166px","top":"3607px"},"silex-id-1484798457819-12":{"top":"219px","left":"11px","width":"413px","min-height":"1359px"},"silex-id-1484580579802-7":{"left":"93px","top":"1585px","width":"249px","min-height":"139px"},"silex-id-1484754130073-4":{"left":"176px","top":"3109px"},"silex-id-1484753914384-1":{"top":"547px","left":"73px","width":"291px","min-height":"121px"},"silex-id-1484945942592-4":{"background-color":"transparent","top":"0px","left":"69px","width":"320px","min-height":"312px"},"silex-id-1484945960527-5":{"top":"620px","left":"66px","width":"320px","min-height":"308px"},"silex-id-1484945906835-3":{"top":"312px","left":"67px","width":"320px","min-height":"308px"},"silex-id-1484586365401-3":{"width":"320px","top":"5px","left":"48px","min-height":"88px","background-color":"transparent"},"silex-id-1484947138474-8":{"left":"144px","top":"4324px","width":"358px","min-height":"261px"},"silex-id-1484714110437-2":{"min-height":"62px","left":"378px","top":"1307px"},"silex-id-1484835515053-1":{"left":"493px","top":"1349px","width":"50px","min-height":"50px"},"silex-id-1484835602991-2":{"left":"482px","top":"1469px","width":"50px","min-height":"53px"},"silex-id-1485455903627-0":{"width":"541px","height":"auto","top":"0px","left":"37px","min-height":"45px","background-color":"rgba(38,38,38,1)","z-index":"1","background-image":"url('../images/horizontal-background-blue.gif')"},"silex-id-1484838104051-2":{"left":"381px","top":"1469px","width":"55px","min-height":"53px"},"silex-id-1484838028656-1":{"left":"530px","top":"1257px","width":"47px","min-height":"46px"},"silex-id-1484667836330-4":{"top":"244px","left":"93px","width":"250px","min-height":"149px"},"silex-id-1486515514414-0":{"min-height":"243px"},"silex-id-1484837978377-0":{"min-height":"60px","width":"56px"},"silex-id-1484835447337-0":{"width":"56px","min-height":"56px"},"silex-id-1486767641887-0":{"top":"1231px","left":"70px","width":"358px","min-height":"254px"},"silex-id-1486767764404-1":{"top":"1054px","left":"14px","width":"188px","min-height":"184px"},"silex-id-1487380851458-10":{"width":"358px","background-image":"url('../images/buttons/mobile-nav-bar.gif')","background-size":"contain","left":"40px","top":"235px","min-height":"48px","background-position":"center center","background-repeat":"repeat-x"},"silex-id-1487446757117-0":{"width":"1024px","min-height":"424px","background-color":"transparent","background-image":"url('../images/horizontal-background-blue.gif')","background-size":"contain","background-repeat":"repeat-y","top":"16px","left":"11px"},"silex-id-1487447587233-2":{"top":"166px","left":"11px","width":"413px","min-height":"203px"},"silex-id-1487450672212-0":{"width":"358px","min-height":"246px","top":"0px","left":"46px"},"silex-id-1488406900125-6":{"left":"536px","top":"531px","width":"55px","min-height":"55px"},"silex-id-1488404966530-0":{"background-image":"url('../images/buttons/mobile-nav-bar.gif')","background-size":"contain","width":"358px","background-position":"center center","background-repeat":"repeat-x","min-height":"51px","top":"332px","left":"40px"},"silex-id-1487370872696-7":{"width":"66px","top":"17px","left":"83px","min-height":"22px","z-index":"5"},"silex-id-1488411302812-0":{"left":"388px","top":"1728px","width":"58px","min-height":"58px"},"silex-id-1488411992707-3":{"width":"60px","min-height":"60px"},"silex-id-1488407259068-8":{"left":"203px","top":"1473px"},"silex-id-1488413136510-4":{"width":"358px","min-height":"274px"},"silex-id-1487446757118-1":{"top":"61px","left":"0px"},"silex-id-1488411944594-2":{"width":"60px","min-height":"60px"},"silex-id-1487380230289-8":{"width":"60px","top":"17px","left":"4px","min-height":"22px","z-index":"5"},"silex-id-1487370749875-4":{"width":"145px","top":"17px","left":"77px","min-height":"24px","z-index":"5"},"silex-id-1488407373286-10":{"width":"70px","top":"16px","left":"232px","min-height":"22px","z-index":"5"},"silex-id-1488469588874-1":{"width":"93px","top":"17px","left":"216px","min-height":"22px"},"silex-id-1488407403972-11":{"width":"58px","top":"17px","left":"152px","min-height":"22px","z-index":"5"},"silex-id-1487370801046-5":{"width":"83px","top":"17px","left":"2px","min-height":"22px","z-index":"5"},"silex-id-1488640638946-0":{"top":"0px","left":"54px","width":"330px","min-height":"830px"},"silex-id-1489004270874-0":{"top":"0px","left":"41px","width":"353px","min-height":"588px"},"silex-id-1489604020116-0":{"width":"64px","top":"950px","left":"678px","min-height":"66px","z-index":"5"},"silex-id-1488850260232-2":{"top":"258px","left":"48px","width":"358px","min-height":"262px"},"silex-id-1488937100324-0":{"top":"841px","left":"11px","width":"358px","min-height":"269px"},"silex-id-1488924615531-0":{"top":"227px","left":"37px","width":"359px","min-height":"221px"},"silex-id-1489629429263-2":{"left":"9px","top":"0px","width":"340px","min-height":"64px"},"silex-id-1489630596390-3":{"top":"138px","left":"19px","width":"320px","min-height":"101px"},"silex-id-1489630702318-4":{"width":"306px","min-height":"64px"},"silex-id-1489629196232-0":{"top":"60px","left":"40px","width":"358px","min-height":"226px"},"silex-id-1489629302716-1":{"top":"196px","left":"38px","width":"358px","min-height":"270px"},"silex-id-1490744783851-1":{"left":"373px","top":"1586px"},"silex-id-1490811332793-0":{"top":"1091px","left":"65px","width":"305px","min-height":"36px"},"silex-id-1496285215419-3":{"left":"204px","top":"2455px"},"silex-id-1496287820616-0":{"top":"470px","left":"34px","width":"366px","min-height":"64px"},"silex-id-1496287969897-1":{"top":"0px","left":"11px","width":"370px","min-height":"216px"},"silex-id-1498092486155-1":{"top":"547px","left":"79px","width":"318px","min-height":"214px"},"silex-id-1502557557441-0":{"top":"196px","left":"45px","width":"330px","min-height":"270px"}},"componentData":{}}]
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" data-silex-viewport="">
+    <meta name="description" content="Live music event Sound Reinforcement and Public Address system with audio engineer">
+    <link href="//alanphillipssoundservice.com/css/favicon.png" rel="shortcut icon">
+    <meta name="publicationPath" content="/api/1.0/dropbox/exec/put/Alanphillipssoundservice.com">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sound Service Audio System Engineer in Asheville North Carolina">
+    <meta name="og:title" content="Sound Service Audio System Engineer in Asheville North Carolina">
+    <meta name="twitter:description" content="Live music event Sound Reinforcement and Public Address system with audio engineer">
+    <meta name="og:description" content="Live music event Sound Reinforcement and Public Address system with audio engineer">
+    <meta name="twitter:image" content="http://alanphillipssoundservice.com/assets/sound-service-us2015.gif">
+    <meta name="og:image" content="http://alanphillipssoundservice.com/assets/sound-service-us2015.gif">
+    <meta name="twitter:site" content="@soundservice">
+
+
+
+
+
+
+
+
+
+
+    <meta name="website-width" content="1024">
+    <style type="text/css" class="silex-style-settings">
+        .website-width {
+            width: 1024px;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style id="current-page-style">
+        .page-sound-service {
+            display: inherit;
+        }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!DOCTYPE HTML>
+
+    <head>
+        <meta name="keywords" content="asheville north carolina, concerts and events, asheville audio services, audio engineer, live sound engineer, ls9 console, music performance, audio technician, multi-track recording, theatrical performances, wedding reception, music festival, public address system">
+        <link rel="shortcut icon" href="css/favicon.png">
+        <link rel="apple-touch-icon" href="css/SoundServiceUsC.png">
+        <link rel="apple-touch-icon-precomposed" href="css/SoundServiceUsC.png">
+        <link rel="alternate" href="css/" hreflang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <!-- End of Silex HEAD tag do not remove -->
+</head>
+
+<body data-silex-id="body-initial" class="body-initial enable-mobile background silex-runtime" data-silex-type="container">
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1487446757118-1 section-element header" data-silex-id="silex-id-1487446757118-1">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1487446757117-0 silex-container-content container-element prevent-draggable header" data-silex-id="silex-id-1487446757117-0">
+            <div data-silex-type="image" class="editable-style silex-id-1484693555371-0 image-element frame" data-silex-id="silex-id-1484693555371-0" title="frame"><img src="../images/navigation-bar-ss.gif" class="silex-element-content" alt="frame"></div>
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1484512191607-3 image-element hide-on-mobile" data-silex-id="silex-id-1484512191607-3" title="frame"><img src="../images/kd5-upper-left-nav.gif" class="silex-element-content" alt="frame"></div>
+
+            <div data-silex-type="image" class="editable-style silex-id-1484537144098-8 image-element hide-on-mobile" data-silex-id="silex-id-1484537144098-8" title="frame"><img src="../images/kd5top.jpg" class="silex-element-content" alt="frame"></div>
+
+            <div data-silex-type="image" class="editable-style silex-id-1484518023787-6 image-element icon hide-on-mobile page-link-active" data-silex-id="silex-id-1484518023787-6" data-silex-href="#!page-sound-service" title="soundservice.us"><img src="../assets/sound-service-us2015.gif" class="silex-element-content" alt="soundservice.us"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484580579802-7 image-element icon hide-on-mobile page-link-active" data-silex-id="silex-id-1484580579802-7" data-silex-href="#!page-sound-service" title="soundervice.us"><img src="../assets/sound-service-us2015.gif" class="silex-element-content" alt="soundservice.us"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484537584194-10 image-element header-img" data-silex-id="silex-id-1484537584194-10" title="Concerts and Events"><img src="../assets/apss-header.jpg" class="silex-element-content" alt="Concerts and Events"></div>
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1484694957894-2 image-element page-sound-system paged-element icon hide-on-mobile page-link-active" data-silex-id="silex-id-1484694957894-2" data-silex-href="#!page-sound-service" title="Home"><img src="../assets/blue-home-page-icon.png" class="silex-element-content" alt="home icon"></div>
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1484578547507-5 image-element icon page-about-us paged-element hide-on-mobile" data-silex-id="silex-id-1484578547507-5" data-silex-href="#!page-contact" title="Contact"><img src="../assets/email-icon.gif" class="silex-element-content" alt="contact icion"></div>
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1484539302249-15 image-element page-sound-service paged-element icon hide-on-mobile page-link-active" data-silex-id="silex-id-1484539302249-15" title="Home" data-silex-href="#!page-sound-service"><img src="../assets/blue-home-page-icon.png" class="silex-element-content" alt="home icon"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484537094743-7 image-element hide-on-mobile" data-silex-id="silex-id-1484537094743-7" title="frame"><img src="../images/kd5-upper-right-nav.gif" class="silex-element-content" alt="frame"></div>
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1488406962243-7 image-element paged-element icon hide-on-mobile page-contact" data-silex-id="silex-id-1488406962243-7" title="Events" data-silex-href="#!page-events"><img src="../assets/icon-music.png" class="silex-element-content" alt="events icon"></div>
+            <div data-silex-type="container" class="editable-style silex-id-1487380851458-10 container-element menu" data-silex-id="silex-id-1487380851458-10">
+                <div data-silex-type="image" class="editable-style silex-id-1487380230289-8 image-element button page-feedback paged-element page-links page-about-us page-contact page-events page-sound-system page-link-active" data-silex-id="silex-id-1487380230289-8"
+                    title="Home" data-silex-href="#!page-sound-service"><img src="../images/buttons/menu-button-home.png" class="silex-element-content"></div>
+
+
+
+
+
+
+
+
+                <div data-silex-type="image" class="editable-style silex-id-1487370509906-2 image-element button-active page-sound-system paged-element" data-silex-id="silex-id-1487370509906-2" title="Sound System" data-silex-href="#!page-sound-system"><img src="../images/buttons/menu-button-sound-system-active.png" class="silex-element-content" alt="Sound System"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1487370104893-0 image-element button-active page-sound-service paged-element page-link-active" data-silex-id="silex-id-1487370104893-0" data-silex-href="#!page-sound-service" title="Sound Service"><img src="../images/buttons/menu-button-home-active.png" class="silex-element-content" alt="Sound Service"></div>
+
+
+
+
+
+                <div data-silex-type="image" class="editable-style silex-id-1487370749875-4 image-element button page-sound-service paged-element page-events page-contact page-about-us page-links page-feedback" data-silex-id="silex-id-1487370749875-4" data-silex-href="#!page-sound-system"
+                    title="Sound System"><img src="../images/buttons/menu-button-sound-system.png" class="silex-element-content" alt="Sound System"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1488407373286-10 image-element button page-contact paged-element page-about-us page-links page-feedback page-sound-system page-sound-service" data-silex-id="silex-id-1488407373286-10" data-silex-href="#!page-events"
+                    title="Events"><img src="../images/buttons/menu-button-events.png" class="silex-element-content" alt="Events"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1487370256339-1 image-element button-active paged-element page-events" data-silex-id="silex-id-1487370256339-1" title="Events" data-silex-href="#!page-events"><img src="../images/buttons/menu-button-events-active.png" class="silex-element-content" alt="Events"></div>
+            </div>
+            <div data-silex-type="container" class="editable-style silex-id-1488404966530-0 container-element" data-silex-id="silex-id-1488404966530-0">
+                <div data-silex-type="image" class="editable-style silex-id-1487370834283-6 image-element button-active page-contact paged-element" data-silex-id="silex-id-1487370834283-6" title="Contact" data-silex-href="#!page-contact"><img src="../images/buttons/menu-button-contact-active.png" class="silex-element-content" alt="Contact"></div>
+
+                <div data-silex-type="image" class="editable-style silex-id-1487370801046-5 image-element button page-feedback paged-element page-links page-about-us page-events page-sound-system page-sound-service" data-silex-id="silex-id-1487370801046-5" title="Contact"
+                    data-silex-href="#!page-contact"><img src="../images/buttons/menu-button-contact.png" class="silex-element-content" alt="Contact"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1487370872696-7 image-element button page-feedback paged-element page-links page-contact page-events page-sound-system page-sound-service" data-silex-id="silex-id-1487370872696-7" data-silex-href="#!page-about-us"
+                    title="About"><img src="../images/buttons/menu-button-about.png" class="silex-element-content" alt="About"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1488407277187-9 image-element button-active page-links paged-element" data-silex-id="silex-id-1488407277187-9" title="Links" data-silex-href="#!page-links"><img src="../images/buttons/menu-button-links-active.png" class="silex-element-content" alt="Links"></div>
+
+
+
+
+
+
+
+
+
+
+
+                <div data-silex-type="image" class="editable-style silex-id-1488407259068-8 image-element button-active page-about-us paged-element" data-silex-id="silex-id-1488407259068-8" data-silex-href="#!page-about-us" title="About"><img src="../images/buttons/menu-button-about-active.png" class="silex-element-content" alt="About"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1488407403972-11 image-element button page-feedback paged-element page-about-us page-contact page-events page-sound-system page-sound-service" data-silex-id="silex-id-1488407403972-11" data-silex-href="#!page-links"
+                    title="Links"><img src="../images/buttons/menu-button-links.png" class="silex-element-content" alt="Links"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1488469573935-0 image-element paged-element page-feedback" data-silex-id="silex-id-1488469573935-0" title="Feedback" data-silex-href="#!page-feedback"><img src="../images/buttons/menu-button-feedback-active.png" class="silex-element-content" alt="Feedback"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1488469588874-1 image-element page-sound-service paged-element page-sound-system page-events page-contact page-about-us page-links" data-silex-id="silex-id-1488469588874-1" data-silex-href="#!page-feedback"
+                    title="Feedback"><img src="../images/buttons/menu-button-feedback.png" class="silex-element-content" alt="Feedback"></div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1488406625592-2 image-element paged-element icon page-about-us hide-on-mobile" data-silex-id="silex-id-1488406625592-2" data-silex-href="#!page-links" title="Links"><img src="../assets/icon-link-blue.png" class="silex-element-content" alt="link icon"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484696051548-8 image-element paged-element icon hide-on-mobile page-feedback page-link-active" data-silex-id="silex-id-1484696051548-8" data-silex-href="#!page-sound-service" title="Home"><img src="../assets/blue-home-page-icon.png" class="silex-element-content" alt="home icon"></div>
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1488407563874-12 image-element paged-element page-sound-system hide-on-mobile" data-silex-id="silex-id-1488407563874-12" title="Events" data-silex-href="#!page-events"><img src="../assets/icon-music.png" class="silex-element-content" alt="events icon"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484707605980-18 image-element button hide-on-mobile paged-element page-events" data-silex-id="silex-id-1484707605980-18" data-silex-href="#!page-contact" title="Contact"><img src="../assets/email-icon.gif" class="silex-element-content" alt="contact icon"></div>
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1488482373983-2 image-element page-sound-service paged-element icon hide-on-mobile" data-silex-id="silex-id-1488482373983-2" title="Feedback" data-silex-href="#!page-feedback"><img src="../assets/icon-feedback.png" class="silex-element-content" alt="feedback"></div>
+            <div data-silex-type="image" class="editable-style image-element icon silex-id-1488482534287-4 page-links paged-element hide-on-mobile" data-silex-id="silex-id-1488482534287-4" data-silex-href="#!page-feedback" title="Feedback"><img src="../assets/icon-feedback.png" class="silex-element-content" alt="feedback"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484695639336-7 image-element icon hide-on-mobile paged-element page-feedback" data-silex-id="silex-id-1484695639336-7" data-silex-href="#!page-about-us" title="About Us"><img src="../assets/icon-link-blue.png" class="silex-element-content"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488406680697-3 image-element page-events paged-element hide-on-mobile" data-silex-id="silex-id-1488406680697-3" data-silex-href="#!page-events" title="Events"><img src="../assets/icon-music.png" class="silex-element-content" alt="events icon"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484578608898-6 image-element paged-element page-contact hide-on-mobile" data-silex-id="silex-id-1484578608898-6" data-silex-index.htmlhref="%3Cdiv%20id=&quot;cell6&quot;%3E%3C/div%3E" data-silex-href="#!page-contact"
+                title="Contact"><img src="../assets/email-icon.gif" class="silex-element-content" alt="contact icon"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488405759027-1 image-element page-links paged-element hide-on-mobile" data-silex-id="silex-id-1488405759027-1" title="Links" data-silex-href="#!page-links"><img src="../assets/icon-link-blue.png" class="silex-element-content" alt="link icon"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488482269984-1 image-element page-feedback paged-element icon hide-on-mobile" data-silex-id="silex-id-1488482269984-1" data-silex-href="#!page-feedback" title="Feedback"><img src="../assets/icon-feedback.png" class="silex-element-content" alt="feedback"></div>
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1484578044367-4 image-element icon page-about-us paged-element hide-on-mobile" data-silex-id="silex-id-1484578044367-4" data-silex-href="#!page-about-us" title="About"><img src="../assets/about-icon.png" class="silex-element-content" alt="about us"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484586643977-9 image-element page-contact paged-element icon hide-on-mobile" data-silex-id="silex-id-1484586643977-9" data-silex-href="#!page-about-us" title="About Us"><img src="../assets/about-icon.png" class="silex-element-content" alt="About us"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488406775462-5 image-element paged-element page-links hide-on-mobile" data-silex-id="silex-id-1488406775462-5" title="About Us" data-silex-href="#!page-about-us"><img src="../assets/about-icon.png" class="silex-element-content" alt="about us"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484695298049-6 image-element icon hide-on-mobile page-events paged-element" data-silex-id="silex-id-1484695298049-6" data-silex-href="#!page-sound-system" title="Sound System"><img src="../assets/icon-microphone.gif" class="silex-element-content" alt="sound system"></div>
+
+
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1484667836330-4 html-element page-contact paged-element text-box-c" data-silex-id="silex-id-1484667836330-4">
+                <div class="silex-element-content">
+                    <p>Alan Phillips
+                        <br>Sound Service
+                        <br>PO Box 8350
+                        <br>Asheville, NC
+                        <br>28814-8350
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1484667941470-6 html-element page-contact paged-element text-box-c hide-on-mobile" data-silex-id="silex-id-1484667941470-6">
+                <div class="silex-element-content">
+                    <p>Cell:</p>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1484667775781-3 html-element page-contact paged-element text-box-c" data-silex-id="silex-id-1484667775781-3">
+                <div class="silex-element-content">
+                    <div id="cell3"><a href="tel:828-713-7232">828-713-7232</a></div>
+                </div>
+            </div>
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1484667884821-5 html-element page-contact paged-element text-box-c" data-silex-id="silex-id-1484667884821-5">
+                <div class="silex-element-content">
+                    <div id="email2"><a href="mailto:alan@soundservice.us">alan@soundservice.us</a></div>
+                </div>
+            </div>
+
+            <div data-silex-type="image" class="editable-style silex-id-1488413136510-4 image-element paged-element page-events img" data-silex-id="silex-id-1488413136510-4" title="an Old Farmers Ball contra dance during LEAF"><img src="../assets/old-farmers-ball.jpg" class="silex-element-content" alt="Old Farmers Ball"></div>
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1484538769756-14 image-element page-sound-service paged-element icon hide-on-mobile" data-silex-id="silex-id-1484538769756-14" data-silex-href="#!page-sound-system" title="sound system"><img src="../assets/icon-microphone.gif" class="silex-element-content" alt="sound system"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484577833854-2 image-element page-sound-system paged-element icon hide-on-mobile" data-silex-id="silex-id-1484577833854-2" data-silex-href="#!page-sound-system" title="sound system"><img src="../assets/icon-microphone.gif" class="silex-element-content"></div>
+            <div data-silex-type="container" class="editable-style silex-id-1487447587233-2 container-element page-sound-system paged-element" data-silex-id="silex-id-1487447587233-2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div data-silex-type="image" class="editable-style silex-id-1487450672212-0 image-element img" data-silex-id="silex-id-1487450672212-0" title="Mac Arnold at Biltmore Park"><img src="../assets/mac-arnold-bpts.jpg" class="silex-element-content" alt="Mac Arnold"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1485011020421-1 image-element img hide-on-mobile" data-silex-id="silex-id-1485011020421-1" title="Blind Lemon Phillips band"><img src="../assets/charley-phillips.jpg" class="silex-element-content" alt="Blind Lemon Phillips band"></div>
+                <div data-silex-type="image" class="editable-style silex-id-1486515514414-0 image-element img hide-on-mobile" data-silex-id="silex-id-1486515514414-0" title="EON612 and EAW Sub"><img src="../assets/eon-eaw.gif" class="silex-element-content" alt="EON612 and EAW Sub"></div>
+            </div>
+
+            <div data-silex-type="image" class="editable-style silex-id-1484753881879-0 image-element page-about-us paged-element image" data-silex-id="silex-id-1484753881879-0" title="event sound system Biltmore Lioncrest"><img src="../assets/back-porch-orchestra-set-up.jpg" class="silex-element-content" alt="event sound system Biltmore Lioncrest"></div>
+
+            <div data-silex-type="container" class="editable-style silex-id-1489629302716-1 container-element page-links paged-element" data-silex-id="silex-id-1489629302716-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div data-silex-type="image" class="editable-style silex-id-1489629429263-2 image-element" data-silex-id="silex-id-1489629429263-2" title="You Deserve To Be Heard" data-silex-href="http://youdeservetobeheard.com"><img src="../assets/ydtbh-banner.jpg" class="silex-element-content"></div>
+                <div data-silex-type="html" class="editable-style silex-id-1484586365401-3 html-element text-box-c" data-silex-id="silex-id-1484586365401-3">
+                    <div class="silex-element-content"> To listen to music recorded while on location, visit:
+                        <a target="_blank" href="//www.youdeservetobeheard.com">www.youdeservetobeheard.com</a>
+
+
+
+                    </div>
+                </div>
+                <div data-silex-type="image" class="editable-style silex-id-1489630702318-4 image-element" data-silex-id="silex-id-1489630702318-4" title="Digiview Repair" data-silex-href="http://digiviewrepair.com"><img src="../assets/circuit-board-header-2011.jpg" class="silex-element-content" alt="Digiview Repair"></div>
+                <div data-silex-type="html" class="editable-style silex-id-1489630596390-3 html-element text-box-c" data-silex-id="silex-id-1489630596390-3">
+                    <div class="silex-element-content"> Camera Surveillance Digital Video Recorder Repair:
+                        <a target="_blank" href="//www.digiviewrepair.com">www.digiviewrepair.com</a>
+                        <br></div>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1496287820616-0 html-element page-events paged-element text-box-c" data-silex-id="silex-id-1496287820616-0">
+                <div class="silex-element-content">The Stringrays perform for an Old Farmers Ball Contra dance during LEAF
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style silex-id-1484586416018-4 image-element page-contact paged-element img" data-silex-id="silex-id-1484586416018-4" title="Sound Service Card"><img src="../assets/sound-service-card-2016.gif" class="silex-element-content" alt="Sound Service Card"></div>
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1486767641887-0 image-element page-sound-service paged-element img" data-silex-id="silex-id-1486767641887-0" title="&quot;Mr Potato Head&quot; at Biltmore Ramble"><img src="../assets/mr-potato-head-biltmore-ramble1.jpg" class="silex-element-content" alt="&quot;Mr Potato Head&quot; at Biltmore Ramble"></div>
+
+            <div data-silex-type="html" class="editable-style silex-id-1502557557441-0 html-element page-feedback paged-element text-box-c" data-silex-id="silex-id-1502557557441-0" style="">
+                <div class="silex-element-content">
+                    <p>OK I've caused a little feedback over the years...
+                        <br><br>Accidents happen
+                        <br>
+                        <br>Comments like these however, are priceless.
+                        <br>If you have any feedback you would like to share, an email and contact form is on the Contact page. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="silex-pages">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a id="page-sound-service" data-silex-type="page" class="page-element page-link-active">sound-service</a><a id="page-sound-system" data-silex-type="page" class="page-element">sound-system</a><a id="page-events" data-silex-type="page" class="page-element">events</a>
+        <a id="page-contact" data-silex-type="page" class="page-element">contact</a>
+        <a id="page-about-us" data-silex-type="page" class="page-element">about-us</a>
+        <a id="page-links" data-silex-type="page" class="page-element">Links</a><a id="page-feedback" data-silex-type="page" class="page-element">feedback</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1474394621033-3 section-element main" data-silex-id="silex-id-1474394621033-3">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1474394621032-2 silex-container-content container-element prevent-draggable website-width frame" data-silex-id="silex-id-1474394621032-2">
+            <div data-silex-type="html" class="editable-style silex-id-1489629196232-0 html-element page-links paged-element text-box-c" data-silex-id="silex-id-1489629196232-0">
+                <div class="silex-element-content"> <br>
+                    <br>
+                    <br>
+                    <br> Onsite massage therapy services: <a target="_blank" href="//www.appalachianspaventures.com">www.appalachianspaventures.com</a>
+                    <br>
+                    <br> Spa Directory for the traveler: <a target="_blank" href="//www.appalachianspatravelguide.com">www.appalachianspatravelguide.com</a>
+                    <br></div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1488640638946-0 html-element page-feedback paged-element text-box-c" data-silex-id="silex-id-1488640638946-0">
+                <div class="silex-element-content"> <br>After performances at Biltmore Park summer concerts:
+                    <p>we'd personally like to thank everyone @ Alan Phillips Sound - fantastic sound and great people to work with - absolute professionals and kudos to you guys for hiring such a good quality sound service - hopefully we get to work with
+                        them again in the future! Rob @ Rathkeltair http://www.rathkeltair.com/</p>
+
+
+                    <p>...Also would like to let you know that we play several of these type events and it was such a joy to work with someone as talented and professional as Alan Phillips running sound and lights. We received many positive comments concerning
+                        the quality of his sound mix. …and obviously as musicians we could tell it was great! Rex Cutshall http://www.dashboardblue.com/</p>
+
+
+                    <br>Jack of the Wood, Asheville:
+                    <p>thanks for making our first trip to Asheville a great experience! hope to see you again in the new year! ,,Alex, LShapeLot.com</p>
+
+                    <br>Old Farmers'Ball Contra dance band, Warren Wilson College:
+                    <p>Hey there Alan,,,thanks for helping us rock!! everybody (dancers, us, caller) are happy when you run sound. look forward to next time! -David Brown,, www.myspace.com/contraversialmusic</p>
+                    <br>
+                    <p>"It's all about how it's run!" <br>Alan Phillips</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1489004270874-0 html-element paged-element page-contact text-box" data-silex-id="silex-id-1489004270874-0">
+                <div class="silex-element-content">
+
+                    <link rel="stylesheet" href="css/form.css">
+                    <div id="main">
+                        <div id="contact_form">
+                        </div>
+                    </div>
+                    <!-- include JavaScript file here -->
+                    <script src="js/form.js"></script>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1488924615531-0 html-element page-links paged-element text-box-c" data-silex-id="silex-id-1488924615531-0">
+                <div class="silex-element-content"> <br>
+                    <a target="_blank" href="//www.biltmorepark.com/events/concerts-park-0">Biltmore park 2015:</a> Biltmore Park Town Square® summer concerts
+                    <br>
+                    <br>
+                    <a target="_blank" href="//www.biltmorepark.com/news/concert-park-series-set-return-biltmore-park-town-square">Biltmore park 2016:</a> Biltmore Park Town Square® summer concerts
+                    <br>
+                    <br>
+                    <a target="_blank" href="//www.biltmorepark.com/entertainment/concerts-in-the-park">Biltmore park 2017:</a> Biltmore Park Town Square® summer concerts
+                    <br></div>
+            </div>
+            <div data-silex-type="image" class="editable-style silex-id-1490147748847-1 image-element page-links paged-element img" data-silex-id="silex-id-1490147748847-1" title="Biltmore Concerts" data-silex-href="http://www.biltmorepark.com/entertainment/concerts-in-the-park"><img src="../assets/biltmore-concerts.gif" class="silex-element-content" alt="Biltmore Concerts"></div>
+            <div data-silex-type="html" class="editable-style silex-id-1484539880137-16 html-element page-sound-system paged-element text-box" data-silex-id="silex-id-1484539880137-16">
+                <div class="silex-element-content">
+                    <h2>Event PA system</h2>
+                    <br>Based in Asheville North Carolina (Fairview) this Sound System with engineer is for hire. Fees include Delivery, load in, setup, sound check, performance, and load out. Since venue particulars vary, as does my schedule, please
+                    call for quotes:
+                    <text-right>
+                        <div id="cell2"><a href="tel:828-713-7232">828-713-7232</a></div>
+                    </text-right>
+                    <p>The Yamaha LS9-16 digital mixing console is capable of six stage monitor mixes, and includes on-board: omni delay, compression, equalization, stereo record and playback. With the MY16-AT ADAT card installed and light piped to a Behringer
+                        Ultragain ADA8200, the LS9 is expandable to 24 analog inputs. Sixteen optical ouputs are available for multi-track hard disk recording via the MOTU 2408mk2.</p>
+                    <p>Many times it's not conducive to run cables to a sound console in the audience. With the StageMix Application, wireless audio mixing is an eloquent solution.</p>
+                    <br>
+                    <h3>Equipment List:</h3>
+
+                    <ul>
+                        <li>House system: two JBL EON612 self powered loudspeakers, and two 18" EAW sub-woofers powered by twin Crown XTi 4000's. (Stereo tri-amped system)
+                        </li>
+                        <li>Stage system: Four EV Sx80's and two Turbosound TXD-12M floor monitors.
+                        </li>
+                        <li>The Eon's, Turbos, and SX80's may be pole mounted and tilted for FOH and delayed speaker distribution.
+                        </li>
+                        <li>Consoles: Yamaha LS9-16 and MG102c ten channel conferencing mixers. iPod and laptop hookups are always available.
+                        </li>
+                        <li>Lights: Two Chauvet Mini 4 Bar LED light trees with random and audio triggers.</li>
+                    </ul>
+                    <p></p>
+                    <p>Microphones include: three Shure SM58, four SM57, three Audio Technica Pro35, three Sennheiser Evolution series e604 drum mics, one PG52 kick drum mic, one AT 4033 large diaphragm microphone, three Crown PZM disc microphones, two Shure
+                        PG58 hand-held wireless, and four PG1 wireless body packs with Microphone Madness earset microphones.</p>
+
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1484586245669-2 html-element page-about-us paged-element text-box-c" data-silex-id="silex-id-1484586245669-2">
+                <div class="silex-element-content">
+                    <h2>About Sound Service</h2>
+
+                    <p>Sound Service is a live audio production company specializing in live sound reinforcement systems with audio tools and equipment for audiences up to 2000 people.
+
+                    </p>
+                    <p>We offer cost effective audio solutions for public address, wedding, theater production, dance, and concert systems so performing artists can hear and be heard clearly at appropriate sound levels.
+                        <br>With extensive experience in pro audio engineering, problem solving, and customer service and patience, we bring a specialized event sound system to you.</p>
+                    <br>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1496287969897-1 html-element page-events paged-element text-box-c" data-silex-id="silex-id-1496287969897-1">
+                <div class="silex-element-content">Whether it's a morning seminar, afternoon wedding, or an evening concert, each event is unique. A calming attitude and attention to detail is important for the success of any occasion. This goes beyond audio to collaborating with the event
+                    manager.
+                    <br>(I normally show up early)</div>
+            </div>
+            <div data-silex-type="image" class="editable-style silex-id-1488850260232-2 image-element page-events paged-element img" data-silex-id="silex-id-1488850260232-2" title="Spare Parts"><img src="../assets/spare-parts.jpg" class="silex-element-content" alt="Spare Parts"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488937100324-0 image-element page-events paged-element img" data-silex-id="silex-id-1488937100324-0" title="Back Porch Orchestra - Biltmore Lioncrest"><img src="../assets/back-porch-orchestra-biltmore-lion-crest.jpg" class="silex-element-content" alt="Back Porch Orchesta"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488850171359-0 image-element page-events paged-element img" data-silex-id="silex-id-1488850171359-0" title="Jon Stickley"><img src="../assets/jon-stickley.jpg" class="silex-element-content" alt="Jon Stickley"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488488778391-0 image-element page-events paged-element img" data-silex-id="silex-id-1488488778391-0" data-silex-href="http://www.biltmorepark.com/entertainment/concerts-in-the-park" title="Biltmore concerts in the park"><img src="../assets/biltmore-concerts.gif" class="silex-element-content" alt="Biltmore concerts in the park"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1498092486155-1 image-element page-about-us paged-element" data-silex-id="silex-id-1498092486155-1" title="Sound Service Logo"><img src="../assets/sound-service-logo-elipse.gif" class="silex-element-content" alt="Sound Service logo"></div>
+            <div data-silex-type="html" class="editable-style silex-id-1484753914384-1 html-element text-box-c page-about-us paged-element" data-silex-id="silex-id-1484753914384-1">
+                <div class="silex-element-content"> <br>
+                    <p>"Audio engineering is more than a profession,
+                        <br>it's a craft."</p>
+                </div>
+            </div>
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1484512516540-5 html-element text-box-c page-sound-service paged-element" data-silex-id="silex-id-1484512516540-5">
+                <div class="silex-element-content">
+                    <div itemscope="" itemtype="http://www.alanphillipssoundservice.com">
+                        <p> </p>
+                        <h1><span itemprop="name">Alan Phillips</span>
+                            <span itemprop="service">Sound Service</span></h1>
+                        <br><span itemprop="description">Live entertainment sound system with audio engineer</span>
+                        <br>small to medium music &amp; event systems
+                        <br>multi-track recording and mastering
+                        <br>Front Of House - Monitor World
+                        <br>A/V presentation support
+
+                    </div>
+                    <p>Music and Event services include audio systems and support for concert, conference, dance band, music festival, wedding ceremony, reception band or iPod, theater sound design, musical production, school commencement, kid &amp; adult
+                        birthday party, corporate event, seminar, church service, and any special occasion
+                        <br>
+                        <br>Serving All Surrounding Areas of Western North Carolina: Asheville, Arden, Fairview, Fletcher, Hendersonville, Saluda, Tryon, Black Mountain, Mars Hill, Burnsville, Weaverville, Shelby, Lake Lure, Marion, Lake James, Lake Keowee,
+                        Morganton, Hickory, Ferguson, Lenoir, Wilkesboro, Waynesville, Maggie Valley, Sylva, Cherokee, Robbinsville, Cashiers, Highlands, Concord, Charlotte, Greensboro, High Point NC Appalachian Regional Areas near NC, TN, South Carolina:
+                        Greenville, Spartanburg, Columbus, Charleson, Myrtle Beach, Johnson City, Del Rio Tennessee
+                        <br>
+                        <br>With over 30 years experience</p>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1484672409615-8 html-element text-box-c page-sound-service paged-element page-feedback page-links page-about-us page-events" data-silex-id="silex-id-1484672409615-8" style="">
+                <div class="silex-element-content">
+                    <div id="cell1"><a href="tel:828-713-7232">828-713-7232</a></div>
+
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1490811332793-0 html-element text-box-c page-feedback paged-element page-links page-about-us page-sound-service" data-silex-id="silex-id-1490811332793-0" style="">
+                <div class="silex-element-content">
+                    <div id="email"><a href="mailto:alan@soundservice.us">alan@soundservice.us</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1484798417246-11 section-element page-sound-system paged-element" data-silex-id="silex-id-1484798417246-11">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1484798417246-10 silex-container-content container-element prevent-draggable website-width frame" data-silex-id="silex-id-1484798417246-10">
+            <div data-silex-type="html" class="editable-style silex-id-1484945906835-3 html-element text-box" data-silex-id="silex-id-1484945906835-3">
+                <div class="silex-element-content">
+                    <h3>Small PA and conference system:</h3>
+                    <ul>
+                        <li>Hand-held and ear-set wireless microphones</li>
+                        <li>Two EON612 loudspeakers pole mounted</li>
+                        <li>distributed delay with two EV Sx80 enclosures</li>
+                        <li>Stewart World 1.2 amplifier</li>
+                        <li>Yamaha MG-102 10-channel analog mixer</li>
+                        <li>Optional Yamaha LS9 digital console (snakeless)</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="html" class="editable-style silex-id-1484945942592-4 html-element text-box" data-silex-id="silex-id-1484945942592-4">
+                <div class="silex-element-content">
+                    <h3>Acoustic, Bluegrass, Contra Dance, General Purpose System:</h3>
+                    <ul>
+                        <li>JBL EON612 loudspeakers pole mounted and tilted</li>
+                        <li>Four SX-80 stage monitors</li>
+                        <li>Two FR-222 Subwoofers</li>
+                        <li>Crown and Stewart power amplifiers</li>
+                        <li>100 foot 24x4 channel snake or snakeless</li>
+                        <li>LS9, microphones, stands, etc...</li>
+                    </ul>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1484945960527-5 html-element text-box" data-silex-id="silex-id-1484945960527-5">
+                <div class="silex-element-content">
+                    <h3>Concert, Festival, Club system up to 2000 people:</h3>
+                    <ul>
+                        <li>Two JBL EON612 loudspeakers</li>
+                        <li>Two EAW 18" Subwoofers powered by Xti4000's</li>
+                        <li>Crown DSP handles crossover functions</li>
+                        <li>Four EV Sx80 monitors</li>
+                        <li>Two Turbosound floor wedges</li>
+                        <li>Front Of House 6800 Watts total</li>
+                        <li>100 foot 24 channel snake or snakeless</li>
+                        <li>LS9, microphones, stands, etc...</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-silex-type="image" class="editable-style silex-id-1484947035932-6 image-element img hide-on-mobile" data-silex-id="silex-id-1484947035932-6" title="Warren Wilson Commencement"><img src="../assets/wwc-commencement1.jpg" class="silex-element-content" alt="Warren Wilson Commencement"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484947102896-7 image-element img hide-on-mobile" data-silex-id="silex-id-1484947102896-7" title="Small PA set up"><img src="../assets/small-pa.jpg" class="silex-element-content" alt="small pa set up"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484947138474-8 image-element img" data-silex-id="silex-id-1484947138474-8" title="Biltmore Ramble Whitewater Blugrass band" style=""><img src="../assets/whitewaterbluegrass.jpg" class="silex-element-content" alt="Biltmore Ramble Whitewater Blugrass band"></div>
+        </div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1474394605264-1 section-element footer" data-silex-id="silex-id-1474394605264-1">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1474394605263-0 silex-container-content container-element prevent-draggable website-width frame" data-silex-id="silex-id-1474394605263-0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1484537402560-9 image-element frame hide-on-mobile" data-silex-id="silex-id-1484537402560-9" title="frame"><img src="../images/kd5-lower-right.gif" class="silex-element-content" alt="frame"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1485455903627-0 image-element frame" data-silex-id="silex-id-1485455903627-0" title="nav frame"><img src="../images/navigation-bar-bottom-ss.gif" class="silex-element-content" alt="nav frame"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style image-element silex-id-1484837978377-0 page-sound-system paged-element icon page-link-active" data-silex-id="silex-id-1484837978377-0" data-silex-href="#!page-sound-service" title="Home"><img src="../assets/blue-home-page-icon.png" class="silex-element-content" alt="home icon"></div>
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style image-element icon silex-id-1484838104051-2 page-about-us paged-element" data-silex-id="silex-id-1484838104051-2" data-silex-href="#!page-contact" title="Contact"><img src="../assets/email-icon.gif" class="silex-element-content" alt="contact icon"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1488411302812-0 image-element paged-element icon page-feedback" data-silex-id="silex-id-1488411302812-0" title="Links" data-silex-href="#!page-links"><img src="../assets/icon-link-blue.png" class="silex-element-content" alt="links icon"></div>
+            <div data-silex-type="image" class="editable-style image-element icon silex-id-1488482440186-3 paged-element page-sound-service" data-silex-id="silex-id-1488482440186-3" title="Feedback" data-silex-href="#!page-feedback"><img src="../assets/icon-feedback.png" class="silex-element-content" alt="feedback"></div>
+
+            <div data-silex-type="image" class="editable-style silex-id-1488411944594-2 image-element page-contact paged-element icon" data-silex-id="silex-id-1488411944594-2" title="Events" data-silex-href="#!page-events"><img src="../assets/icon-music.png" class="silex-element-content" alt="events icon"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style image-element silex-id-1496285458556-4 page-links paged-element" data-silex-id="silex-id-1496285458556-4" title="About Us" data-silex-href="#!page-about-us"><img src="../assets/about-icon.png" class="silex-element-content" alt="about us"></div>
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1496284168296-1 image-element hide-on-mobile" data-silex-id="silex-id-1496284168296-1"><img src="../images/kd5-lower-left.gif" class="silex-element-content"></div>
+            <div data-silex-type="image" class="editable-style image-element icon silex-id-1496285215419-3 page-events paged-element" data-silex-id="silex-id-1496285215419-3" data-silex-href="#!page-sound-system" title="Sound System"><img src="../assets/icon-microphone.gif" class="silex-element-content" alt="sound system"></div>
+            <div data-silex-type="html" class="editable-style silex-id-1496284575695-2 html-element cell" data-silex-id="silex-id-1496284575695-2">
+                <div class="silex-element-content">
+                    <div id="cell4"><a href="tel:828-713-7232">828-713-7232</a></div>
+                    <script src="assets/cell.js"></script>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1484835602991-2 paged-element icon page-feedback page-link-active" data-silex-id="silex-id-1484835602991-2" data-silex-href="#!page-sound-service" title="Home"><img src="../assets/blue-home-page-icon.png" class="silex-element-content" alt="home icon"></div>
+            <div data-silex-type="image" class="editable-style image-element icon silex-id-1488482548134-5 page-links paged-element" data-silex-id="silex-id-1488482548134-5" title="feedback" data-silex-href="#!page-feedback"><img src="../assets/icon-feedback.png" class="silex-element-content" alt="feedback"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488411992707-3 image-element page-about-us paged-element icon" data-silex-id="silex-id-1488411992707-3" title="Links" data-silex-href="#!page-links"><img src="../assets/icon-link-blue.png" class="silex-element-content" alt="link icon"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1484835515053-1 image-element page-contact paged-element icon" data-silex-id="silex-id-1484835515053-1" data-silex-href="#!page-about-us" title="about us"><img src="../assets/about-icon.png" class="silex-element-content" alt="about us"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1488406900125-6 image-element paged-element page-sound-system icon" data-silex-id="silex-id-1488406900125-6" title="Events" data-silex-href="#!page-events"><img src="../assets/icon-music.png" class="silex-element-content" alt="events icon"></div>
+            <div data-silex-type="image" class="editable-style image-element icon silex-id-1490744783851-1 page-sound-service paged-element" data-silex-id="silex-id-1490744783851-1" data-silex-href="#!page-sound-system" title="sound system"><img src="../assets/icon-microphone.gif" class="silex-element-content" alt="sound system"></div>
+
+            <div data-silex-type="image" class="editable-style silex-id-1484835447337-0 image-element paged-element icon page-events" data-silex-id="silex-id-1484835447337-0" data-silex-href="#!page-contact" title="Contact"><img src="../assets/email-icon.gif" class="silex-element-content" alt="contact icoin"></div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
